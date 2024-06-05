@@ -15,6 +15,9 @@
 		6F22AE4F2C0EDCC200DBC339 /* GeneVectorEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE4E2C0EDCC200DBC339 /* GeneVectorEditorTests.swift */; };
 		6F22AE592C0EDCC200DBC339 /* GeneVectorEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE582C0EDCC200DBC339 /* GeneVectorEditorUITests.swift */; };
 		6F22AE5B2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE5A2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift */; };
+		6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE672C0F4AC700DBC339 /* CircularView.swift */; };
+		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
+		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		6F22AE542C0EDCC200DBC339 /* GeneVectorEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneVectorEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F22AE582C0EDCC200DBC339 /* GeneVectorEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneVectorEditorUITests.swift; sourceTree = "<group>"; };
 		6F22AE5A2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneVectorEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F22AE672C0F4AC700DBC339 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
+		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,11 @@
 				6F22AE3B2C0EDCC000DBC339 /* GeneVectorEditorApp.swift */,
 				6F22AE3D2C0EDCC000DBC339 /* ContentView.swift */,
 				6F22AE3F2C0EDCC000DBC339 /* Item.swift */,
+				6F22AE672C0F4AC700DBC339 /* CircularView.swift */,
 				6F22AE412C0EDCC200DBC339 /* Assets.xcassets */,
 				6F22AE432C0EDCC200DBC339 /* Preview Content */,
+				6F72D36C2C104815008F86CD /* IconCardView.swift */,
+				6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */,
 			);
 			path = GeneVectorEditor;
 			sourceTree = "<group>";
@@ -261,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F22AE3E2C0EDCC000DBC339 /* ContentView.swift in Sources */,
+				6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
+				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
 				6F22AE3C2C0EDCC000DBC339 /* GeneVectorEditorApp.swift in Sources */,
+				6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +476,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
