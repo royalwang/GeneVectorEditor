@@ -16,20 +16,33 @@
 		6F22AE5B2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE5A2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift */; };
 		6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F22AE672C0F4AC700DBC339 /* CircularView.swift */; };
 		6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69E72D26CB690087BA28 /* Gene.swift */; };
-		6F6F69EA2D26CB720087BA28 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69E92D26CB6F0087BA28 /* Feature.swift */; };
-		6F6F69EC2D26CB790087BA28 /* Primer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69EB2D26CB760087BA28 /* Primer.swift */; };
-		6F6F69EE2D26CB800087BA28 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69ED2D26CB7C0087BA28 /* Translation.swift */; };
+		6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69E92D26CB6F0087BA28 /* GeneFeature.swift */; };
+		6F6F69EC2D26CB790087BA28 /* GenePrimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69EB2D26CB760087BA28 /* GenePrimer.swift */; };
+		6F6F69EE2D26CB800087BA28 /* GeneTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69ED2D26CB7C0087BA28 /* GeneTranslation.swift */; };
 		6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69EF2D26CB830087BA28 /* ExtraLine.swift */; };
 		6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69F22D26CB960087BA28 /* ContentView.swift */; };
 		6F6F69F52D26CBA20087BA28 /* GeneCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69F42D26CB9E0087BA28 /* GeneCellView.swift */; };
-		6F6F69F72D26CBAE0087BA28 /* GeneDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69F62D26CBA60087BA28 /* GeneDetailView.swift */; };
-		6F6F69F92D26CBB60087BA28 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69F82D26CBB30087BA28 /* FeatureView.swift */; };
-		6F6F69FB2D26CBC00087BA28 /* PrimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69FA2D26CBBB0087BA28 /* PrimerView.swift */; };
-		6F6F69FD2D26CBC90087BA28 /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69FC2D26CBC40087BA28 /* TranslationView.swift */; };
 		6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F69FF2D26CBDB0087BA28 /* GeneViewModel.swift */; };
 		6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A012D26CBE40087BA28 /* GeneService.swift */; };
 		6F6F6A092D26CCBD0087BA28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A082D26CCB80087BA28 /* Extensions.swift */; };
 		6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A102D26D6840087BA28 /* Notes.swift */; };
+		6F6F6A152D26E4060087BA28 /* FileOperationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A142D26E4000087BA28 /* FileOperationMenu.swift */; };
+		6F6F6A232D26E5E30087BA28 /* ManageEnzymesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */; };
+		6F6F6A252D26E6540087BA28 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A242D26E6540087BA28 /* FeaturesView.swift */; };
+		6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A282D26E74A0087BA28 /* GeneralView.swift */; };
+		6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */; };
+		6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A2C2D26E9820087BA28 /* GeneData.swift */; };
+		6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */; };
+		6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A322D26EE240087BA28 /* PartsView 2.swift */; };
+		6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A342D26EE6A0087BA28 /* GenePart.swift */; };
+		6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A372D26F00A0087BA28 /* PrimersView.swift */; };
+		6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A392D26F0E10087BA28 /* TranslationsView.swift */; };
+		6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A3B2D26F1520087BA28 /* CutSitesView.swift */; };
+		6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A3D2D26F1680087BA28 /* CutSite.swift */; };
+		6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A3F2D26F1B40087BA28 /* ORFsView.swift */; };
+		6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A412D26F1C00087BA28 /* ORFs.swift */; };
+		6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A432D26F1F30087BA28 /* GenbankView.swift */; };
+		6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A452D26F1FE0087BA28 /* Genbank.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -64,20 +77,33 @@
 		6F22AE5A2C0EDCC200DBC339 /* GeneVectorEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneVectorEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6F22AE672C0F4AC700DBC339 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
 		6F6F69E72D26CB690087BA28 /* Gene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gene.swift; sourceTree = "<group>"; };
-		6F6F69E92D26CB6F0087BA28 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
-		6F6F69EB2D26CB760087BA28 /* Primer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primer.swift; sourceTree = "<group>"; };
-		6F6F69ED2D26CB7C0087BA28 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		6F6F69E92D26CB6F0087BA28 /* GeneFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFeature.swift; sourceTree = "<group>"; };
+		6F6F69EB2D26CB760087BA28 /* GenePrimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenePrimer.swift; sourceTree = "<group>"; };
+		6F6F69ED2D26CB7C0087BA28 /* GeneTranslation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneTranslation.swift; sourceTree = "<group>"; };
 		6F6F69EF2D26CB830087BA28 /* ExtraLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLine.swift; sourceTree = "<group>"; };
 		6F6F69F22D26CB960087BA28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F6F69F42D26CB9E0087BA28 /* GeneCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneCellView.swift; sourceTree = "<group>"; };
-		6F6F69F62D26CBA60087BA28 /* GeneDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneDetailView.swift; sourceTree = "<group>"; };
-		6F6F69F82D26CBB30087BA28 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
-		6F6F69FA2D26CBBB0087BA28 /* PrimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerView.swift; sourceTree = "<group>"; };
-		6F6F69FC2D26CBC40087BA28 /* TranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
 		6F6F69FF2D26CBDB0087BA28 /* GeneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneViewModel.swift; sourceTree = "<group>"; };
 		6F6F6A012D26CBE40087BA28 /* GeneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneService.swift; sourceTree = "<group>"; };
 		6F6F6A082D26CCB80087BA28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6F6F6A102D26D6840087BA28 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		6F6F6A142D26E4000087BA28 /* FileOperationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationMenu.swift; sourceTree = "<group>"; };
+		6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageEnzymesView.swift; sourceTree = "<group>"; };
+		6F6F6A242D26E6540087BA28 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		6F6F6A282D26E74A0087BA28 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneDetailView 2.swift"; sourceTree = "<group>"; };
+		6F6F6A2C2D26E9820087BA28 /* GeneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneData.swift; sourceTree = "<group>"; };
+		6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileDetailPage 3.swift"; sourceTree = "<group>"; };
+		6F6F6A322D26EE240087BA28 /* PartsView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PartsView 2.swift"; sourceTree = "<group>"; };
+		6F6F6A342D26EE6A0087BA28 /* GenePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenePart.swift; sourceTree = "<group>"; };
+		6F6F6A372D26F00A0087BA28 /* PrimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimersView.swift; sourceTree = "<group>"; };
+		6F6F6A392D26F0E10087BA28 /* TranslationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationsView.swift; sourceTree = "<group>"; };
+		6F6F6A3B2D26F1520087BA28 /* CutSitesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSitesView.swift; sourceTree = "<group>"; };
+		6F6F6A3D2D26F1680087BA28 /* CutSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutSite.swift; sourceTree = "<group>"; };
+		6F6F6A3F2D26F1B40087BA28 /* ORFsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORFsView.swift; sourceTree = "<group>"; };
+		6F6F6A412D26F1C00087BA28 /* ORFs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORFs.swift; sourceTree = "<group>"; };
+		6F6F6A432D26F1F30087BA28 /* GenbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenbankView.swift; sourceTree = "<group>"; };
+		6F6F6A452D26F1FE0087BA28 /* Genbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genbank.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,11 +204,15 @@
 		6F6F69E62D26CB640087BA28 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6A3D2D26F1680087BA28 /* CutSite.swift */,
+				6F6F6A452D26F1FE0087BA28 /* Genbank.swift */,
+				6F6F6A412D26F1C00087BA28 /* ORFs.swift */,
+				6F6F6A342D26EE6A0087BA28 /* GenePart.swift */,
 				6F6F6A102D26D6840087BA28 /* Notes.swift */,
 				6F6F69EF2D26CB830087BA28 /* ExtraLine.swift */,
-				6F6F69ED2D26CB7C0087BA28 /* Translation.swift */,
-				6F6F69EB2D26CB760087BA28 /* Primer.swift */,
-				6F6F69E92D26CB6F0087BA28 /* Feature.swift */,
+				6F6F69ED2D26CB7C0087BA28 /* GeneTranslation.swift */,
+				6F6F69EB2D26CB760087BA28 /* GenePrimer.swift */,
+				6F6F69E92D26CB6F0087BA28 /* GeneFeature.swift */,
 				6F6F69E72D26CB690087BA28 /* Gene.swift */,
 			);
 			path = Models;
@@ -191,11 +221,12 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6A362D26EF230087BA28 /* GeneFile */,
+				6F6F6A2C2D26E9820087BA28 /* GeneData.swift */,
+				6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */,
+				6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */,
+				6F6F6A142D26E4000087BA28 /* FileOperationMenu.swift */,
 				6F6F6A082D26CCB80087BA28 /* Extensions.swift */,
-				6F6F69FC2D26CBC40087BA28 /* TranslationView.swift */,
-				6F6F69FA2D26CBBB0087BA28 /* PrimerView.swift */,
-				6F6F69F82D26CBB30087BA28 /* FeatureView.swift */,
-				6F6F69F62D26CBA60087BA28 /* GeneDetailView.swift */,
 				6F6F69F42D26CB9E0087BA28 /* GeneCellView.swift */,
 				6F6F69F22D26CB960087BA28 /* ContentView.swift */,
 			);
@@ -216,6 +247,22 @@
 				6F6F6A012D26CBE40087BA28 /* GeneService.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		6F6F6A362D26EF230087BA28 /* GeneFile */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6A432D26F1F30087BA28 /* GenbankView.swift */,
+				6F6F6A3F2D26F1B40087BA28 /* ORFsView.swift */,
+				6F6F6A3B2D26F1520087BA28 /* CutSitesView.swift */,
+				6F6F6A392D26F0E10087BA28 /* TranslationsView.swift */,
+				6F6F6A372D26F00A0087BA28 /* PrimersView.swift */,
+				6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */,
+				6F6F6A282D26E74A0087BA28 /* GeneralView.swift */,
+				6F6F6A242D26E6540087BA28 /* FeaturesView.swift */,
+				6F6F6A322D26EE240087BA28 /* PartsView 2.swift */,
+			);
+			path = GeneFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,26 +398,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F6F69F72D26CBAE0087BA28 /* GeneDetailView.swift in Sources */,
 				6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */,
 				6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */,
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
-				6F6F69FB2D26CBC00087BA28 /* PrimerView.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
-				6F6F69F92D26CBB60087BA28 /* FeatureView.swift in Sources */,
-				6F6F69EC2D26CB790087BA28 /* Primer.swift in Sources */,
+				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
+				6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */,
+				6F6F69EC2D26CB790087BA28 /* GenePrimer.swift in Sources */,
 				6F6F69F52D26CBA20087BA28 /* GeneCellView.swift in Sources */,
-				6F6F69EA2D26CB720087BA28 /* Feature.swift in Sources */,
+				6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */,
+				6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */,
+				6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */,
+				6F6F6A152D26E4060087BA28 /* FileOperationMenu.swift in Sources */,
+				6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */,
 				6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */,
+				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
+				6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
+				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
+				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
+				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
+				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,
+				6F6F6A232D26E5E30087BA28 /* ManageEnzymesView.swift in Sources */,
+				6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */,
 				6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */,
 				6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */,
 				6F6F6A092D26CCBD0087BA28 /* Extensions.swift in Sources */,
+				6F6F6A252D26E6540087BA28 /* FeaturesView.swift in Sources */,
 				6F22AE3C2C0EDCC000DBC339 /* GeneVectorEditorApp.swift in Sources */,
-				6F6F69FD2D26CBC90087BA28 /* TranslationView.swift in Sources */,
 				6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */,
-				6F6F69EE2D26CB800087BA28 /* Translation.swift in Sources */,
+				6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */,
+				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
+				6F6F69EE2D26CB800087BA28 /* GeneTranslation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,7 @@ struct ContentView: View {
                             .foregroundColor(.red)
                     } else {
                         List(viewModel.genes) { gene in
-                            NavigationLink(destination: GeneDetailView(gene: gene)) {
+                            NavigationLink(destination: FileDetailPage3(gene: gene)) {
                                 GeneCellView(gene: gene)
                             }
                         }

@@ -1,5 +1,5 @@
 //
-//  Translation.swift
+//  Primer.swift
 //  GeneVectorEditor
 //
 //  Created by Wang Zhengdong on 1/2/25.
@@ -7,10 +7,10 @@
 
 import Foundation
 
-// Translation 模型
-struct Translation: Identifiable, Codable {
+// Primer 模型
+struct GenePrimer: Identifiable, Codable {
     let id: String
-    let notes: Notes // notes 是一个 TranslationNotes 类型的字典
+    let notes: Notes // notes 是一个 PrimerNotes 类型的字典
     let type: String
     let strand: Int
     let forward: Bool
@@ -19,7 +19,6 @@ struct Translation: Identifiable, Codable {
     let end: Int
     let annotationTypePlural: String
     let color: String
-    let translationType: String
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -32,6 +31,5 @@ struct Translation: Identifiable, Codable {
         case end
         case annotationTypePlural
         case color
-        case translationType
     }
 }

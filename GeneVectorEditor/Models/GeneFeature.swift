@@ -1,5 +1,5 @@
 //
-//  Primer.swift
+//  Feature.swift
 //  GeneVectorEditor
 //
 //  Created by Wang Zhengdong on 1/2/25.
@@ -7,10 +7,9 @@
 
 import Foundation
 
-// Primer 模型
-struct Primer: Identifiable, Codable {
+struct GeneFeature: Identifiable, Codable {
     let id: String
-    let notes: Notes // notes 是一个 PrimerNotes 类型的字典
+    let notes: Notes // 这里是字典
     let type: String
     let strand: Int
     let forward: Bool
@@ -33,3 +32,4 @@ struct Primer: Identifiable, Codable {
         case color
     }
 }
+

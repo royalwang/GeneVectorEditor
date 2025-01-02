@@ -15,7 +15,7 @@ struct Gene: Identifiable, Codable {
     let accession: String
     let type: String
     let extraLines: [String]?
-    let features: [Feature]?
+    let features: [GeneFeature]?
     let sequenceTypeFromLocus: String
     let definition: String
     let timestamp: Int
@@ -27,7 +27,7 @@ struct Gene: Identifiable, Codable {
     let size: Int
     let name: String
     let searchValue: String
-    let primers: [Primer]?
+    let primers: [GenePrimer]?
     let user: Int
     let gbDivision: String
     let fileType: String
@@ -38,10 +38,12 @@ struct Gene: Identifiable, Codable {
     let warnings: [String]
     let assemblyPieces: [String]
     let lineageAnnotations: [String]
-    let parts: [String]
-    let translations: [Translation]?
+    let parts: [GenePart]
+    let translations: [GeneTranslation]?
     let guides: [String]
     let materiallyAvailable: Bool
     let fromFileUpload: Bool
     let stateTrackingId: String
+    let cutSites: [GeneCutSite]?
+    let orfs: [GeneORFs]?
 }

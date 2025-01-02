@@ -1,5 +1,5 @@
 //
-//  Feature.swift
+//  Translation.swift
 //  GeneVectorEditor
 //
 //  Created by Wang Zhengdong on 1/2/25.
@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Feature: Identifiable, Codable {
+// Translation 模型
+struct GeneTranslation: Identifiable, Codable {
     let id: String
-    let notes: Notes // 这里是字典
+    let notes: Notes // notes 是一个 TranslationNotes 类型的字典
     let type: String
     let strand: Int
     let forward: Bool
@@ -18,6 +19,7 @@ struct Feature: Identifiable, Codable {
     let end: Int
     let annotationTypePlural: String
     let color: String
+    let translationType: String
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -30,6 +32,6 @@ struct Feature: Identifiable, Codable {
         case end
         case annotationTypePlural
         case color
+        case translationType
     }
 }
-

@@ -475,7 +475,28 @@
         "warnings": [],
         "assemblyPieces": [],
         "lineageAnnotations": [],
-        "parts": [],
+        "parts": [
+            {
+                "id": "part1",
+                "name": "Promoter Region",
+                "size": 100,
+                "strand": 1,
+                "tags": ["promoter", "E. coli"],
+                "color": "#FF5733",
+                "description": "Promoter for transcription initiation",
+                "sequence": "ATGCGTACGTAGCTAGC"
+            },
+            {
+                "id": "part2",
+                "name": "Coding Sequence",
+                "size": 250,
+                "strand": -1,
+                "tags": ["gene", "synthetic"],
+                "color": "#33FFCE",
+                "description": "Coding region for synthetic protein",
+                "sequence": "CGTAGCTAGCTACGATC"
+            }
+        ],
         "translations": [
             {
                 "notes": {
