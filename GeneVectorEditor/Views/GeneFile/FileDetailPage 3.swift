@@ -41,7 +41,7 @@ struct FileDetailPage3: View {
                 case "General":
                     GeneralView(gene: gene)
                 case "Features":
-                    FeaturesView(features: gene.features ?? [])
+                    FeaturesView2(features: gene.features ?? [])
                 case "Parts":
                     PartsView(parts: gene.parts)
                 case "Primers":

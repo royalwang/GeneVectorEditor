@@ -42,6 +42,7 @@
 		6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A412D26F1C00087BA28 /* ORFs.swift */; };
 		6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A432D26F1F30087BA28 /* GenbankView.swift */; };
 		6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A452D26F1FE0087BA28 /* Genbank.swift */; };
+		6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +103,7 @@
 		6F6F6A412D26F1C00087BA28 /* ORFs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORFs.swift; sourceTree = "<group>"; };
 		6F6F6A432D26F1F30087BA28 /* GenbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenbankView.swift; sourceTree = "<group>"; };
 		6F6F6A452D26F1FE0087BA28 /* Genbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genbank.swift; sourceTree = "<group>"; };
+		6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturesView 2.swift"; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,6 +251,7 @@
 		6F6F6A362D26EF230087BA28 /* GeneFile */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */,
 				6F6F6A432D26F1F30087BA28 /* GenbankView.swift */,
 				6F6F6A3F2D26F1B40087BA28 /* ORFsView.swift */,
 				6F6F6A3B2D26F1520087BA28 /* CutSitesView.swift */,
@@ -425,6 +428,7 @@
 				6F22AE3C2C0EDCC000DBC339 /* GeneVectorEditorApp.swift in Sources */,
 				6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */,
 				6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */,
+				6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */,
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
 				6F6F69EE2D26CB800087BA28 /* GeneTranslation.swift in Sources */,
 			);
