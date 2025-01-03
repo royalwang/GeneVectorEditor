@@ -80,7 +80,7 @@ struct StatCard: View {
                 .foregroundColor(.white)
             Text(subtitle)
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.black)
         }
         .frame(maxWidth: .infinity)
         .padding()
