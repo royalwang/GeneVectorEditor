@@ -53,7 +53,11 @@
 		6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */; };
 		6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB82D27E44C0087BA28 /* MainView.swift */; };
 		6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */; };
-		6F6F6AC02D281F1C0087BA28 /* NotificationsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ABF2D281F170087BA28 /* NotificationsContentView.swift */; };
+		6F6F6AC22D2822F30087BA28 /* GeneSequenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */; };
+		6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC32D2828220087BA28 /* NotificationsView.swift */; };
+		6F6F6AC62D2828990087BA28 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC52D2828990087BA28 /* SettingsView.swift */; };
+		6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC72D2828C90087BA28 /* HelpView.swift */; };
+		6F6F6ACA2D282A750087BA28 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC92D282A6F0087BA28 /* FileManager.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -125,7 +129,11 @@
 		6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		6F6F6AB82D27E44C0087BA28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
-		6F6F6ABF2D281F170087BA28 /* NotificationsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsContentView.swift; sourceTree = "<group>"; };
+		6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceListView.swift; sourceTree = "<group>"; };
+		6F6F6AC32D2828220087BA28 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		6F6F6AC52D2828990087BA28 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6F6F6AC72D2828C90087BA28 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		6F6F6AC92D282A6F0087BA28 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,7 +252,10 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6ABF2D281F170087BA28 /* NotificationsContentView.swift */,
+				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
+				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
+				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
+				6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */,
 				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
 				6F6F6ABC2D2809F40087BA28 /* Sidebar */,
 				6F6F6AB82D27E44C0087BA28 /* MainView.swift */,
@@ -271,6 +282,7 @@
 		6F6F6A032D26CBEC0087BA28 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AC92D282A6F0087BA28 /* FileManager.swift */,
 				6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */,
 				6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */,
 				6F6F6A502D27B1510087BA28 /* GeneDirService.swift */,
@@ -457,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */,
+				6F6F6AC62D2828990087BA28 /* SettingsView.swift in Sources */,
 				6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */,
 				6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */,
 				6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */,
@@ -468,21 +481,24 @@
 				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
 				6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */,
 				6F6F69EC2D26CB790087BA28 /* GenePrimer.swift in Sources */,
+				6F6F6AC22D2822F30087BA28 /* GeneSequenceListView.swift in Sources */,
 				6F6F69F52D26CBA20087BA28 /* GeneCellView.swift in Sources */,
-				6F6F6AC02D281F1C0087BA28 /* NotificationsContentView.swift in Sources */,
 				6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */,
 				6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */,
 				6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */,
 				6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */,
 				6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */,
 				6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */,
+				6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */,
 				6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */,
 				6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */,
 				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
 				6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
+				6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */,
 				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
 				6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */,
+				6F6F6ACA2D282A750087BA28 /* FileManager.swift in Sources */,
 				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,

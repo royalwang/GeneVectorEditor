@@ -45,18 +45,20 @@ struct DashboardContentView: View {
 
             // Getting Started Section
             VStack(alignment: .leading, spacing: 15) {
-                Text("Getting Started")
+                Text("Gene Sequences")
                     .font(.title2)
                     .fontWeight(.bold)
 
                 ProgressBar(progress: 0.25)
 
                 VStack(spacing: 10) {
-                    ChecklistItem(title: "Northstar Goal", progress: "1 of 3 steps completed", time: "About 6 mins", isCompleted: false)
-                    ChecklistItem(title: "Business Areas", progress: "0 of 2 steps completed", time: "About 2 mins", isCompleted: false)
-                    ChecklistItem(title: "Capabilities", progress: "0 of 2 steps completed", time: "About 5 mins", isCompleted: false)
-                    ChecklistItem(title: "Activities", progress: "2 of 2 steps completed", time: "About 8 mins", isCompleted: true)
-                    ChecklistItem(title: "Technologies", progress: "2 of 2 steps completed", time: "About 3 mins", isCompleted: true)
+//                    ChecklistItem(title: "Northstar Goal", progress: "1 of 3 steps completed", time: "About 6 mins", isCompleted: false)
+//                    ChecklistItem(title: "Business Areas", progress: "0 of 2 steps completed", time: "About 2 mins", isCompleted: false)
+//                    ChecklistItem(title: "Capabilities", progress: "0 of 2 steps completed", time: "About 5 mins", isCompleted: false)
+//                    ChecklistItem(title: "Activities", progress: "2 of 2 steps completed", time: "About 8 mins", isCompleted: true)
+//                    ChecklistItem(title: "Technologies", progress: "2 of 2 steps completed", time: "About 3 mins", isCompleted: true)
+                    GeneListView()
+                        
                 }
             }
 

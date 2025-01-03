@@ -35,10 +35,10 @@ struct SidebarView: View {
                 SidebarItem(icon: "rectangle.grid.2x2", title: "Dashboard", isSelected: selectedMenu == .dashboard) {
                     selectedMenu = .dashboard
                 }
-                SidebarItem(icon: "map", title: "Stackmap", isSelected: selectedMenu == .stackmap) {
+                SidebarItem(icon: "map", title: "Sequences", isSelected: selectedMenu == .stackmap) {
                     selectedMenu = .stackmap
                 }
-                SidebarItem(icon: "gearshape.2", title: "Capabilities", isSelected: selectedMenu == .capabilities) {
+                SidebarItem(icon: "gearshape.2", title: "Enzymes", isSelected: selectedMenu == .capabilities) {
                     selectedMenu = .capabilities
                 }
                 SidebarItem(icon: "cpu", title: "Technologies", isSelected: selectedMenu == .technologies) {

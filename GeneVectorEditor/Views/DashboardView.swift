@@ -12,36 +12,40 @@ struct DashboardView: View {
     @State private var selectedMenu: SidebarMenu = .dashboard // 当前选中的菜单
 
     var body: some View {
-        HStack(spacing: 0) {
-            // Sidebar
-            SidebarView(selectedMenu: $selectedMenu)
+        NavigationView {
+            HStack(spacing: 0) {
+                // Sidebar
+                SidebarView(selectedMenu: $selectedMenu)
 
-            // Main Content
-            VStack(alignment: .leading, spacing: 20) {
-                switch selectedMenu {
-                case .dashboard:
-                    DashboardContentView()
-                case .stackmap:
-                    StackmapView()
-                case .capabilities:
-                    CapabilitiesView()
-                case .technologies:
-                    TechnologiesView()
-                case .roadmap:
-                    RoadmapView()
-                case .notification:
-                    NotificationsView()
-                case .setting:
-                    SettingsView()
-                case .help:
-                    HelpView()
+                // Main Content
+                VStack(alignment: .leading, spacing: 20) {
+                    switch selectedMenu {
+                    case .dashboard:
+                        DashboardContentView()
+                    case .stackmap:
+                        StackmapView()
+                    case .capabilities:
+                        CapabilitiesView()
+                    case .technologies:
+                        TechnologiesView()
+                    case .roadmap:
+                        RoadmapView()
+                    case .notification:
+                        NotificationsView()
+                    case .setting:
+                        SettingsView()
+                    case .help:
+                        HelpView()
+                    }
+                    Spacer()
                 }
-                Spacer()
+                .padding()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.gray.opacity(0.1)) // 背景色
             }
-            .padding()
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.gray.opacity(0.1)) // 背景色
         }
+        // 设置单页面导航样式
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
