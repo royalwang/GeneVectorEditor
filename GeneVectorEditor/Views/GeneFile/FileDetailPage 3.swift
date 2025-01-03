@@ -77,6 +77,9 @@ struct FileDetailPage3: View {
         .onAppear {
             loadGeneFile()
         }
+        // 设置导航标题
+        .navigationTitle(gene?.name ?? "Gene Details") // 使用基因名称作为标题，加载中显示占位标题
+        .navigationBarTitleDisplayMode(.inline) // 设置标题样式为居中
     }
     
     private func loadGeneFile() {
