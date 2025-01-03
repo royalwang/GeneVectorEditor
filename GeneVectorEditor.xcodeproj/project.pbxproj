@@ -51,6 +51,7 @@
 		6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */; };
 		6F6F6AB52D27DFC10087BA28 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */; };
 		6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */; };
+		6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB82D27E44C0087BA28 /* MainView.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -120,6 +121,7 @@
 		6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanboxDirectory.swift; sourceTree = "<group>"; };
 		6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		6F6F6AB82D27E44C0087BA28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -238,6 +240,7 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AB82D27E44C0087BA28 /* MainView.swift */,
 				6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */,
 				6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */,
 				6F6F6A362D26EF230087BA28 /* GeneFile */,
@@ -456,6 +459,7 @@
 				6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */,
 				6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */,
 				6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */,
+				6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */,
 				6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */,
 				6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */,
 				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
