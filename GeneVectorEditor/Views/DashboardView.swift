@@ -12,45 +12,47 @@ struct DashboardView: View {
     var body: some View {
         HStack(spacing: 0) {
             // Sidebar
-            VStack(alignment: .leading, spacing: 20) {
-                Text("STACKMAP")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding(.top, 20)
-
-                VStack(alignment: .leading, spacing: 15) {
-                    NavigationLink(destination: Text("Dashboard")) {
-                        Label("Dashboard", systemImage: "house.fill")
-                    }
-                    NavigationLink(destination: Text("Stackmap")) {
-                        Label("Stackmap", systemImage: "map")
-                    }
-                    NavigationLink(destination: Text("Capabilities")) {
-                        Label("Capabilities", systemImage: "gearshape")
-                    }
-                    NavigationLink(destination: Text("Technologies")) {
-                        Label("Technologies", systemImage: "bolt.fill")
-                    }
-                    NavigationLink(destination: Text("Roadmap")) {
-                        Label("Roadmap", systemImage: "calendar")
-                    }
-                }
-                .foregroundColor(.white)
-                .padding(.top, 20)
-
-                Spacer()
-
-                HStack {
-                    Image(systemName: "person.circle")
-                        .foregroundColor(.white)
-                    Text("Daniel Sayer")
-                        .foregroundColor(.white)
-                }
-                .padding(.bottom, 20)
-            }
-            .padding()
-            .frame(width: 200)
-            .background(Color.black)
+            SidebarView()
+            
+//            VStack(alignment: .leading, spacing: 20) {
+//                Text("STACKMAP")
+//                    .font(.headline)
+//                    .foregroundColor(.white)
+//                    .padding(.top, 20)
+//
+//                VStack(alignment: .leading, spacing: 15) {
+//                    NavigationLink(destination: Text("Dashboard")) {
+//                        Label("Dashboard", systemImage: "house.fill")
+//                    }
+//                    NavigationLink(destination: Text("Stackmap")) {
+//                        Label("Stackmap", systemImage: "map")
+//                    }
+//                    NavigationLink(destination: Text("Capabilities")) {
+//                        Label("Capabilities", systemImage: "gearshape")
+//                    }
+//                    NavigationLink(destination: Text("Technologies")) {
+//                        Label("Technologies", systemImage: "bolt.fill")
+//                    }
+//                    NavigationLink(destination: Text("Roadmap")) {
+//                        Label("Roadmap", systemImage: "calendar")
+//                    }
+//                }
+//                .foregroundColor(.white)
+//                .padding(.top, 20)
+//
+//                Spacer()
+//
+//                HStack {
+//                    Image(systemName: "person.circle")
+//                        .foregroundColor(.white)
+//                    Text("Daniel Sayer")
+//                        .foregroundColor(.white)
+//                }
+//                .padding(.bottom, 20)
+//            }
+//            .padding()
+//            .frame(width: 200)
+//            .background(Color.black)
 
             // Main Content
             VStack(alignment: .leading, spacing: 20) {
