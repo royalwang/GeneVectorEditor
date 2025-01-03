@@ -29,6 +29,12 @@ struct DashboardView: View {
                     TechnologiesView()
                 case .roadmap:
                     RoadmapView()
+                case .notification:
+                    NotificationsView()
+                case .setting:
+                    SettingsView()
+                case .help:
+                    HelpView()
                 }
                 Spacer()
             }
@@ -78,6 +84,10 @@ enum SidebarMenu {
     case capabilities
     case technologies
     case roadmap
+    //
+    case notification
+    case setting
+    case help
 }
 
 struct DashboardView_Previews: PreviewProvider {

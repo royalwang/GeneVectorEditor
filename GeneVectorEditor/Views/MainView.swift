@@ -65,29 +65,7 @@ struct RoadmapView2: View {
     }
 }
 
-struct NotificationsView2: View {
-    var body: some View {
-        Text("Notifications View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
 
-struct SettingsView2: View {
-    var body: some View {
-        Text("Settings View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
-
-struct HelpView2: View {
-    var body: some View {
-        Text("Help View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
 
 // Preview
 //struct MainView_Previews: PreviewProvider {

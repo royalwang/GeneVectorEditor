@@ -15,7 +15,7 @@ struct SidebarView: View {
         VStack(alignment: .leading, spacing: 20) {
             // Logo Section
             VStack(alignment: .leading, spacing: 5) {
-                Text("GeneMAP")
+                Text("GeneSequence")
                     .font(.caption)
                     .fontWeight(.bold)
                     .foregroundColor(.gray)
@@ -53,11 +53,17 @@ struct SidebarView: View {
             Spacer()
 
             // Secondary Links
-//            VStack(alignment: .leading, spacing: 15) {
-//                SidebarItem(icon: "bell", title: "Notifications", isSelected: false)
-//                SidebarItem(icon: "gearshape", title: "Settings", isSelected: false)
-//                SidebarItem(icon: "questionmark.circle", title: "Help", isSelected: false)
-//            }
+            VStack(alignment: .leading, spacing: 15) {
+                SidebarItem(icon: "bell", title: "Notifications", isSelected: selectedMenu == .notification) {
+                    selectedMenu = .notification
+                }
+                SidebarItem(icon: "gearshape", title: "Settings", isSelected: selectedMenu == .setting) {
+                    selectedMenu = .setting
+                }
+                SidebarItem(icon: "questionmark.circle", title: "Help", isSelected: selectedMenu == .help) {
+                    selectedMenu = .help
+                }
+            }
 
             // User Info
             HStack {
