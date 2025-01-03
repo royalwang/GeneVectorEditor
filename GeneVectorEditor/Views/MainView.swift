@@ -7,93 +7,25 @@
 
 
 import SwiftUI
+//
+//struct MainView: View {
+//    var body: some View {
+//        NavigationView {
+//            SidebarView()
+//            Text("Select a menu item")
+//                .font(.largeTitle)
+//                .foregroundColor(.gray)
+//        }
+//        .navigationViewStyle(DoubleColumnNavigationViewStyle())
+//    }
+//}
 
-struct MainView: View {
-    var body: some View {
-        NavigationView {
-            SidebarView()
-            Text("Select a menu item")
-                .font(.largeTitle)
-                .foregroundColor(.gray)
-        }
-        .navigationViewStyle(DoubleColumnNavigationViewStyle())
-    }
-}
 
-struct SidebarView: View {
-    var body: some View {
-        List {
-            NavigationLink(destination: DashboardView()) {
-                SidebarItem(icon: "rectangle.grid.2x2", title: "Dashboard")
-            }
-            NavigationLink(destination: StackmapView()) {
-                SidebarItem(icon: "map", title: "Stackmap")
-            }
-            NavigationLink(destination: CapabilitiesView()) {
-                SidebarItem(icon: "gearshape.2", title: "Capabilities")
-            }
-            NavigationLink(destination: TechnologiesView()) {
-                SidebarItem(icon: "cpu", title: "Technologies")
-            }
-            NavigationLink(destination: RoadmapView()) {
-                SidebarItem(icon: "arrow.triangle.branch", title: "Roadmap")
-            }
-            Section {
-                NavigationLink(destination: NotificationsView()) {
-                    SidebarItem(icon: "bell", title: "Notifications")
-                }
-                NavigationLink(destination: SettingsView()) {
-                    SidebarItem(icon: "gearshape", title: "Settings")
-                }
-                NavigationLink(destination: HelpView()) {
-                    SidebarItem(icon: "questionmark.circle", title: "Help")
-                }
-            }
-            Spacer()
-            HStack {
-                Circle()
-                    .fill(Color.purple)
-                    .frame(width: 30, height: 30)
-                    .overlay(
-                        Text("D")
-                            .foregroundColor(.white)
-                            .fontWeight(.bold)
-                    )
-                VStack(alignment: .leading) {
-                    Text("Daniel Sayer")
-                        .foregroundColor(.white)
-                        .font(.footnote)
-                    Text("More Options")
-                        .foregroundColor(.gray)
-                        .font(.caption)
-                }
-                Spacer()
-            }
-        }
-        .listStyle(SidebarListStyle())
-        .background(Color.black)
-    }
-}
 
-struct SidebarItem: View {
-    let icon: String
-    let title: String
 
-    var body: some View {
-        HStack(spacing: 10) {
-            Image(systemName: icon)
-                .foregroundColor(.gray)
-                .frame(width: 24)
-            Text(title)
-                .foregroundColor(.gray)
-            Spacer()
-        }
-        .padding(.vertical, 5)
-    }
-}
 
 // Empty views for each menu option
-struct DashboardView: View {
+struct DashboardView2: View {
     var body: some View {
         Text("Dashboard View")
             .font(.largeTitle)
@@ -101,7 +33,7 @@ struct DashboardView: View {
     }
 }
 
-struct StackmapView: View {
+struct StackmapView2: View {
     var body: some View {
         Text("Stackmap View")
             .font(.largeTitle)
@@ -109,7 +41,7 @@ struct StackmapView: View {
     }
 }
 
-struct CapabilitiesView: View {
+struct CapabilitiesView2: View {
     var body: some View {
         Text("Capabilities View")
             .font(.largeTitle)
@@ -117,7 +49,7 @@ struct CapabilitiesView: View {
     }
 }
 
-struct TechnologiesView: View {
+struct TechnologiesView2: View {
     var body: some View {
         Text("Technologies View")
             .font(.largeTitle)
@@ -125,7 +57,7 @@ struct TechnologiesView: View {
     }
 }
 
-struct RoadmapView: View {
+struct RoadmapView2: View {
     var body: some View {
         Text("Roadmap View")
             .font(.largeTitle)
@@ -133,7 +65,7 @@ struct RoadmapView: View {
     }
 }
 
-struct NotificationsView: View {
+struct NotificationsView2: View {
     var body: some View {
         Text("Notifications View")
             .font(.largeTitle)
@@ -141,7 +73,7 @@ struct NotificationsView: View {
     }
 }
 
-struct SettingsView: View {
+struct SettingsView2: View {
     var body: some View {
         Text("Settings View")
             .font(.largeTitle)
@@ -149,7 +81,7 @@ struct SettingsView: View {
     }
 }
 
-struct HelpView: View {
+struct HelpView2: View {
     var body: some View {
         Text("Help View")
             .font(.largeTitle)
@@ -158,9 +90,9 @@ struct HelpView: View {
 }
 
 // Preview
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-            .preferredColorScheme(.dark)
-    }
-}
+//struct MainView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MainView()
+//            .preferredColorScheme(.dark)
+//    }
+//}
