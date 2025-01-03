@@ -36,21 +36,16 @@ struct GeneListView: View {
     @State private var geneFiles: [GeneFile] = []
 
     var body: some View {
-//        NavigationView {
-            List {
-                ForEach(geneFiles) { file in
-                    NavigationLink(destination: FileDetailPage3(fileName: file.name)) {
-                        GeneFileRow(file: file)
-                    }
+        List {
+            ForEach(geneFiles) { file in
+                NavigationLink(destination: FileDetailPage3(fileName: file.name)) {
+                    GeneFileRow(file: file)
                 }
             }
-            .navigationTitle("Genes")
-            .onAppear {
-                self.geneFiles = FileManager.loadGeneFiles()
-            }
-//        }
-//        // 设置单页面导航样式
-//        .navigationViewStyle(StackNavigationViewStyle())
+        }
+        .onAppear {
+            self.geneFiles = FileManager.loadGeneFiles()
+        }
     }
 }
 
