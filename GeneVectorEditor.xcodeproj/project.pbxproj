@@ -43,6 +43,12 @@
 		6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A432D26F1F30087BA28 /* GenbankView.swift */; };
 		6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A452D26F1FE0087BA28 /* Genbank.swift */; };
 		6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */; };
+		6F6F6A4A2D27AD820087BA28 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A492D27AD820087BA28 /* Device.swift */; };
+		6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */; };
+		6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A502D27B1510087BA28 /* GeneDirService.swift */; };
+		6F6F6AA72D27BE9A0087BA28 /* genes111.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F6AA22D27BE9A0087BA28 /* genes111.json */; };
+		6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */; };
+		6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -104,12 +110,18 @@
 		6F6F6A432D26F1F30087BA28 /* GenbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenbankView.swift; sourceTree = "<group>"; };
 		6F6F6A452D26F1FE0087BA28 /* Genbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genbank.swift; sourceTree = "<group>"; };
 		6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturesView 2.swift"; sourceTree = "<group>"; };
+		6F6F6A492D27AD820087BA28 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		6F6F6A502D27B1510087BA28 /* GeneDirService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneDirService.swift; sourceTree = "<group>"; };
+		6F6F6AA22D27BE9A0087BA28 /* genes111.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genes111.json; sourceTree = "<group>"; };
+		6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDirectory.swift; sourceTree = "<group>"; };
+		6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanboxDirectory.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6F6F6A0E2D26D2900087BA28 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		6F6F6AAB2D27BE9D0087BA28 /* genes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = genes; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +172,8 @@
 		6F22AE3A2C0EDCC000DBC339 /* GeneVectorEditor */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6A0E2D26D2900087BA28 /* Resources */,
+				6F6F6AA32D27BE9A0087BA28 /* Resources */,
+				6F6F6A4F2D27AE150087BA28 /* Components */,
 				6F6F6A032D26CBEC0087BA28 /* Network */,
 				6F6F69FE2D26CBD30087BA28 /* ViewModels */,
 				6F6F69F12D26CB8D0087BA28 /* Views */,
@@ -243,6 +256,9 @@
 		6F6F6A032D26CBEC0087BA28 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */,
+				6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */,
+				6F6F6A502D27B1510087BA28 /* GeneDirService.swift */,
 				6F6F6A012D26CBE40087BA28 /* GeneService.swift */,
 			);
 			path = Network;
@@ -265,6 +281,24 @@
 			path = GeneFile;
 			sourceTree = "<group>";
 		};
+		6F6F6A4F2D27AE150087BA28 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */,
+				6F6F6A492D27AD820087BA28 /* Device.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6F6F6AA32D27BE9A0087BA28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AAB2D27BE9D0087BA28 /* genes */,
+				6F6F6AA22D27BE9A0087BA28 /* genes111.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,7 +315,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6F6F6A0E2D26D2900087BA28 /* Resources */,
+				6F6F6AAB2D27BE9D0087BA28 /* genes */,
 			);
 			name = GeneVectorEditor;
 			productName = GeneVectorEditor;
@@ -374,6 +408,7 @@
 			files = (
 				6F22AE452C0EDCC200DBC339 /* Preview Assets.xcassets in Resources */,
 				6F22AE422C0EDCC200DBC339 /* Assets.xcassets in Resources */,
+				6F6F6AA72D27BE9A0087BA28 /* genes111.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +435,11 @@
 			files = (
 				6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */,
 				6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */,
+				6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */,
+				6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */,
+				6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */,
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
+				6F6F6A4A2D27AD820087BA28 /* Device.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
 				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
@@ -416,6 +455,7 @@
 				6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
 				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
+				6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */,
 				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,

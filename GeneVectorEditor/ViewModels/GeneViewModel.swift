@@ -13,13 +13,13 @@ class GeneViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     @Published var errorMessage: String? = nil
     
-    private let service = GeneService()
+    private let service = GeneDirService()
     
     func loadGenes() {
         isLoading = true
         errorMessage = nil
         
-        service.fetchGeneData { [weak self] result in
+        service.fetchGeneData(from: "genes") { [weak self] result in
             DispatchQueue.main.async {
                 self?.isLoading = false
                 switch result {

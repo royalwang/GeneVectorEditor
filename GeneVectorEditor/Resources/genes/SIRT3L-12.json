@@ -1,0 +1,615 @@
+{
+    "date": "25-AUG-2024",
+    "description": "synthetic circular DNA",
+    "isDoubleStrandedDNA": true,
+    "accession": ".",
+    "type": "DNA",
+    "extraLines": [
+        "KEYWORDS    SIRT3L-12",
+        "SOURCE      synthetic DNA construct",
+        "  ORGANISM  synthetic DNA construct",
+        "REFERENCE   1  (bases 1 to 5570)",
+        "  AUTHORS   Hallows WC, Lee S, Denu JM",
+        "  TITLE     Sirtuins deacetylate and activate mammalian acetyl-CoA synthetases.",
+        "  JOURNAL   Proc Natl Acad Sci U S A. 2006 Jul 5. 103(27):10230-5.",
+        "  PUBMED    16790548",
+        "REFERENCE   2  (bases 1 to 5570)",
+        "  AUTHORS   .",
+        "  TITLE     Direct Submission",
+        "  JOURNAL   Exported Aug 25, 2024 from SnapGene Server 7.0.3",
+        "            https://www.snapgene.com"
+    ],
+    "features": [
+        {
+            "notes": {
+                "mol_type": [
+                    "other DNA"
+                ],
+                "organism": [
+                    "synthetic DNA construct"
+                ]
+            },
+            "type": "source",
+            "strand": 1,
+            "forward": true,
+            "name": "synthetic DNA construct",
+            "start": 0,
+            "end": 5569,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338ea",
+            "color": "#0B17BD"
+        },
+        {
+            "notes": {
+                "note": [
+                    "bacteriophage T5 promoter for E. coli RNA polymerase, with embedded lac operator"
+                ]
+            },
+            "type": "promoter",
+            "strand": 1,
+            "forward": true,
+            "name": "T5 promoter",
+            "start": 9,
+            "end": 53,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338eb",
+            "color": "#31B440"
+        },
+        {
+            "notes": {
+                "bound_moiety": [
+                    "lac repressor encoded by lacI"
+                ],
+                "note": [
+                    "The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                ]
+            },
+            "type": "protein_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "lac operator",
+            "start": 29,
+            "end": 45,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338ec",
+            "color": "#2E2E2E"
+        },
+        {
+            "notes": {
+                "bound_moiety": [
+                    "lac repressor encoded by lacI"
+                ],
+                "note": [
+                    "The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                ]
+            },
+            "type": "protein_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "lac operator",
+            "start": 61,
+            "end": 77,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338ed",
+            "color": "#2E2E2E"
+        },
+        {
+            "notes": {
+                "note": [
+                    "strong bacterial ribosome binding site (Elowitz and Leibler, 2000)"
+                ]
+            },
+            "type": "RBS",
+            "strand": 1,
+            "forward": true,
+            "name": "strong bacterial ribosome binding site (Elowitz and Leibler, 2000)",
+            "start": 96,
+            "end": 107,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338ee",
+            "color": "#BDFFCB"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "product": [
+                    "6xHis affinity tag"
+                ],
+                "translation": [
+                    "HHHHHH"
+                ]
+            },
+            "type": "CDS",
+            "strand": 1,
+            "forward": true,
+            "name": "6xHis",
+            "start": 126,
+            "end": 143,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338ef",
+            "color": "#EF6500"
+        },
+        {
+            "notes": {
+                "note": [
+                    "transcription terminator from phage lambda"
+                ]
+            },
+            "type": "terminator",
+            "strand": 1,
+            "forward": true,
+            "name": "lambda t0 terminator",
+            "start": 1026,
+            "end": 1120,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f0",
+            "color": "#F51600"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "cat"
+                ],
+                "product": [
+                    "chloramphenicol acetyltransferase"
+                ],
+                "note": [
+                    "confers resistance to chloramphenicol"
+                ],
+                "translation": [
+                    "MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+                ]
+            },
+            "type": "CDS",
+            "strand": 1,
+            "forward": true,
+            "name": "CmR",
+            "start": 1164,
+            "end": 1823,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f1",
+            "color": "#EF6500"
+        },
+        {
+            "notes": {
+                "gene": [
+                    "Escherichia coli rrnB"
+                ],
+                "note": [
+                    "transcription terminator T1 from the E. coli rrnB gene"
+                ]
+            },
+            "type": "terminator",
+            "strand": 1,
+            "forward": true,
+            "name": "rrnB T1 terminator",
+            "start": 1888,
+            "end": 1974,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f2",
+            "color": "#F51600"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "lacI"
+                ],
+                "product": [
+                    "lac repressor"
+                ],
+                "note": [
+                    "The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                ],
+                "translation": [
+                    "MKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ"
+                ]
+            },
+            "type": "CDS",
+            "strand": -1,
+            "forward": false,
+            "name": "lacI",
+            "start": 2067,
+            "end": 3149,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f3",
+            "color": "#EF6500"
+        },
+        {
+            "notes": {
+                "gene": [
+                    "lacI (mutant)"
+                ],
+                "note": [
+                    "In the lacIq allele, a single base change in the promoter boosts expression of the lacI gene about 10-fold."
+                ]
+            },
+            "type": "promoter",
+            "strand": -1,
+            "forward": false,
+            "name": "lacIq promoter",
+            "start": 3150,
+            "end": 3227,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f4",
+            "color": "#31B440"
+        },
+        {
+            "notes": {
+                "note": [
+                    "basis of mobility region from pBR322"
+                ]
+            },
+            "type": "misc_feature",
+            "strand": 1,
+            "forward": true,
+            "name": "bom",
+            "start": 3419,
+            "end": 3559,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f5",
+            "color": "#006FEF"
+        },
+        {
+            "notes": {
+                "note": [
+                    "high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+                ]
+            },
+            "type": "rep_origin",
+            "strand": -1,
+            "forward": false,
+            "name": "ori",
+            "start": 3745,
+            "end": 4333,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f6",
+            "color": "#878787"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "bla"
+                ],
+                "product": [
+                    "beta-lactamase"
+                ],
+                "note": [
+                    "confers resistance to ampicillin, carbenicillin, andrelated antibiotics"
+                ],
+                "translation": [
+                    "MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW"
+                ]
+            },
+            "type": "CDS",
+            "strand": -1,
+            "forward": false,
+            "name": "AmpR",
+            "start": 4504,
+            "end": 5364,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f7",
+            "color": "#EF6500"
+        },
+        {
+            "notes": {
+                "gene": [
+                    "bla"
+                ]
+            },
+            "type": "promoter",
+            "strand": -1,
+            "forward": false,
+            "name": "AmpR promoter",
+            "start": 5365,
+            "end": 5469,
+            "annotationTypePlural": "features",
+            "id": "6776917ea4f17b2ddac338f8",
+            "color": "#31B440"
+        }
+    ],
+    "sequenceTypeFromLocus": "DNA",
+    "definition": "synthetic circular DNA",
+    "id": "3nysTDFYvC",
+    "timestamp": 1729316881257,
+    "comments": [
+        "SGRef: number: 1; type: \"Journal Article\"; journalName: \"Proc Natl",
+        "Acad Sci U S A. 2006 Jul 5. 103(27):10230-5.\""
+    ],
+    "circular": true,
+    "version": ".",
+    "sequence": "ctcgagaaatcataaaaaatttatttgctttgtgagcggataacaattataatagattcaattgtgagcggataacaatttcacacagaattcattaaagaggagaaattaactatgagaggatcgcatcaccatcaccatcacggatccaaggggaagctttccctgcaggatgtagctgagctgattcgggccagagcctgccagagggtggtggtcatggtgggggccggcatcagcacacccagtggcattccagacttcagatcgccggggagtggcctgtacagcaacctccagcagtacgatctcccgtaccccgaggccatttttgaactcccattcttctttcacaaccccaagccctttttcactttggccaaggagctgtaccctggaaactacaagcccaacgtcactcactactttctccggctgcttcatgacaaggggctgcttctgcggctctacacgcagaacatcgatgggcttgagagagtgtcgggcatccctgcctcaaagctggttgaagctcatggaacctttgcctctgccacctgcacagtctgccaaagacccttcccaggggaggacattcgggctgacgtgatggcagacagggttccccgctgcccggtctgcaccggcgttgtgaagcccgacattgtgttctttggggagccgctgccccagaggttcttgctgcatgtggttgatttccccatggcagatctgctgctcatccttgggacctccctggaggtggagccttttgccagcttgaccgaggccgtgcggagctcagttccccgactgctcatcaaccgggacttggtggggcccttggcttggcatcctcgcagcagggacgtggcccagctgggggacgtggttcacggcgtggaaagcctagtggagcttctgggctggacagaagagatgcgggaccttgtgcagcgggaaactgggaagcttgatggaccagacaaatgtcgacctgcagccaagcttaattagctgagcttggactcctgttgatagatccagtaatgacctcagaactccatctggatttgttcagaacgctcggttgccgccgggcgttttttattggtgagaatccaagctagcttggcgagattttcaggagctaaggaagctaaaatggagaaaaaaatcactggatataccaccgttgatatatcccaatggcatcgtaaagaacattttgaggcatttcagtcagttgctcaatgtacctataaccagaccgttcagctggatattacggcctttttaaagaccgtaaagaaaaataagcacaagttttatccggcctttattcacattcttgcccgcctgatgaatgctcatccggaatttcgtatggcaatgaaagacggtgagctggtgatatgggatagtgttcacccttgttacaccgttttccatgagcaaactgaaacgttttcatcgctctggagtgaataccacgacgatttccggcagtttctacacatatattcgcaagatgtggcgtgttacggtgaaaacctggcctatttccctaaagggtttattgagaatatgtttttcgtctcagccaatccctgggtgagtttcaccagttttgatttaaacgtggccaatatggacaacttcttcgcccccgttttcaccatgggcaaatattatacgcaaggcgacaaggtgctgatgccgctggcgattcaggttcatcatgccgtttgtgatggcttccatgtcggcagaatgcttaatgaattacaacagtactgcgatgagtggcagggcggggcgtaatttttttaaggcagttattggtgcccttaaacgcctggggtaatgactctctagcttgaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctcctgagtaggacaaatccgccctctagattacgtgcagtcgatgataagctgtcaaacatgagaattgtgcctaatgagtgagctaacttacattaattgcgttgcgctcactgcccgctttccagtcgggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgccagggtggtttttcttttcaccagtgagacgggcaacagctgattgcccttcaccgcctggccctgagagagttgcagcaagcggtccacgctggtttgccccagcaggcgaaaatcctgtttgatggtggttaacggcgggatataacatgagctgtcttcggtatcgtcgtatcccactaccgagatatccgcaccaacgcgcagcccggactcggtaatggcgcgcattgcgcccagcgccatctgatcgttggcaaccagcatcgcagtgggaacgatgccctcattcagcatttgcatggtttgttgaaaaccggacatggcactccagtcgccttcccgttccgctatcggctgaatttgattgcgagtgagatatttatgccagccagccagacgcagacgcgccgagacagaacttaatgggcccgctaacagcgcgatttgctggtgacccaatgcgaccagatgctccacgcccagtcgcgtaccgtcttcatgggagaaaataatactgttgatgggtgtctggtcagagacatcaagaaataacgccggaacattagtgcaggcagcttccacagcaatggcatcctggtcatccagcggatagttaatgatcagcccactgacgcgttgcgcgagaagattgtgcaccgccgctttacaggcttcgacgccgcttcgttctaccatcgacaccaccacgctggcacccagttgatcggcgcgagatttaatcgccgcgacaatttgcgacggcgcgtgcagggccagactggaggtggcaacgccaatcagcaacgactgtttgcccgccagttgttgtgccacgcggttgggaatgtaattcagctccgccatcgccgcttccactttttcccgcgttttcgcagaaacgtggctggcctggttcaccacgcgggaaacggtctgataagagacaccggcatactctgcgacatcgtataacgttactggtttcacattcaccaccctgaattgactctcttccgggcgctatcatgccataccgcgaaaggttttgcaccattcgatggtgtcggaatttcgggcagcgttgggtcctggccacgggtgcgcatgatctagagctgcctcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggagacggtcacagcttgtctgtaagcggatgccgggagcagacaagcccgtcagggcgcgtcagcgggtgttggcgggtgtcggggcgcagccatgacccagtcacgtagcgatagcggagtgtatactggcttaactatgcggcatcagagcagattgtactgagagtgcaccatatgcggtgtgaaataccgcacagatgcgtaaggagaaaataccgcatcaggcgctcttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcac",
+    "isDNA": true,
+    "size": 5570,
+    "name": "SIRT3L-12",
+    "_id": "3nysTDFYvC",
+    "searchValue": "12",
+    "primers": [
+        {
+            "notes": {
+                "note": [
+                    "Chloramphenicol resistance gene, reverse primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": -1,
+            "forward": false,
+            "name": "CAT-R",
+            "start": 1230,
+            "end": 1249,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338f9",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "LacI, reverse primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "LacI-R",
+            "start": 3111,
+            "end": 3130,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338fa",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "pGEX vectors, reverse primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": -1,
+            "forward": false,
+            "name": "pGEX 3'",
+            "start": 3311,
+            "end": 3333,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338fb",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "pRS vectors, use to sequence yeast selectable marker"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "pRS-marker",
+            "start": 3474,
+            "end": 3493,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338fc",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "L4440 vector, forward primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": -1,
+            "forward": false,
+            "name": "L4440",
+            "start": 3574,
+            "end": 3591,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338fd",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "pBR322 origin, forward primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": -1,
+            "forward": false,
+            "name": "pBR322ori-F",
+            "start": 3825,
+            "end": 3844,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338fe",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "Ampicillin resistance gene, reverse primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "Amp-R",
+            "start": 5127,
+            "end": 5146,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac338ff",
+            "color": "#53d969"
+        },
+        {
+            "notes": {
+                "note": [
+                    "pBR322 vectors, upsteam of EcoRI site, forward primer"
+                ]
+            },
+            "type": "primer_bind",
+            "strand": 1,
+            "forward": true,
+            "name": "pBRforEco",
+            "start": 5537,
+            "end": 5555,
+            "annotationTypePlural": "primers",
+            "id": "6776917ea4f17b2ddac33900",
+            "color": "#53d969"
+        }
+    ],
+    "user": 11,
+    "gbDivision": "SYN",
+    "fileType": "DNA",
+    "isProtein": false,
+    "fromServer": false,
+    "proteinSequence": "",
+    "proteinSize": 0,
+    "warnings": [],
+    "assemblyPieces": [],
+    "lineageAnnotations": [],
+    "parts": [
+        {
+            "id": "part1",
+            "name": "Promoter Region",
+            "size": 100,
+            "strand": 1,
+            "tags": ["promoter", "E. coli"],
+            "color": "#FF5733",
+            "description": "Promoter for transcription initiation",
+            "sequence": "ATGCGTACGTAGCTAGC"
+        },
+        {
+            "id": "part2",
+            "name": "Coding Sequence",
+            "size": 250,
+            "strand": -1,
+            "tags": ["gene", "synthetic"],
+            "color": "#33FFCE",
+            "description": "Coding region for synthetic protein",
+            "sequence": "CGTAGCTAGCTACGATC"
+        }
+    ],
+    "translations": [
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "product": [
+                    "6xHis affinity tag"
+                ],
+                "translation": [
+                    "HHHHHH"
+                ]
+            },
+            "type": "CDS",
+            "strand": 1,
+            "forward": true,
+            "name": "6xHis",
+            "start": 126,
+            "end": 143,
+            "annotationTypePlural": "translations",
+            "id": "6776917ea4f17b2ddac338ef",
+            "color": "#EF6500",
+            "translationType": "CDS Feature"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "cat"
+                ],
+                "product": [
+                    "chloramphenicol acetyltransferase"
+                ],
+                "note": [
+                    "confers resistance to chloramphenicol"
+                ],
+                "translation": [
+                    "MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA"
+                ]
+            },
+            "type": "CDS",
+            "strand": 1,
+            "forward": true,
+            "name": "CmR",
+            "start": 1164,
+            "end": 1823,
+            "annotationTypePlural": "translations",
+            "id": "6776917ea4f17b2ddac338f1",
+            "color": "#EF6500",
+            "translationType": "CDS Feature"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "lacI"
+                ],
+                "product": [
+                    "lac repressor"
+                ],
+                "note": [
+                    "The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+                ],
+                "translation": [
+                    "MKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ"
+                ]
+            },
+            "type": "CDS",
+            "strand": -1,
+            "forward": false,
+            "name": "lacI",
+            "start": 2067,
+            "end": 3149,
+            "annotationTypePlural": "translations",
+            "id": "6776917ea4f17b2ddac338f3",
+            "color": "#EF6500",
+            "translationType": "CDS Feature"
+        },
+        {
+            "notes": {
+                "codon_start": [
+                    1
+                ],
+                "gene": [
+                    "bla"
+                ],
+                "product": [
+                    "beta-lactamase"
+                ],
+                "note": [
+                    "confers resistance to ampicillin, carbenicillin, andrelated antibiotics"
+                ],
+                "translation": [
+                    "MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW"
+                ]
+            },
+            "type": "CDS",
+            "strand": -1,
+            "forward": false,
+            "name": "AmpR",
+            "start": 4504,
+            "end": 5364,
+            "annotationTypePlural": "translations",
+            "id": "6776917ea4f17b2ddac338f7",
+            "color": "#EF6500",
+            "translationType": "CDS Feature"
+        }
+    ],
+    "guides": [],
+    "materiallyAvailable": true,
+    "fromFileUpload": false,
+    "stateTrackingId": "initialLoadId"
+}
