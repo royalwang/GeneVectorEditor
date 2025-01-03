@@ -65,29 +65,34 @@ struct SidebarView: View {
                 }
             }
 
-            // User Info
-            HStack {
-                Circle()
-                    .fill(Color.purple)
-                    .frame(width: 30, height: 30)
-                    .overlay(
-                        Text("D")
-                            .foregroundColor(.white)
-                            .fontWeight(.bold)
-                    )
-                VStack(alignment: .leading) {
-                    Text("Daniel Sayer")
-                        .foregroundColor(.white)
-                        .font(.footnote)
-                    Text("More Options")
-                        .foregroundColor(.gray)
-                        .font(.caption)
-                }
-                Spacer()
-                Image(systemName: "ellipsis")
-                    .foregroundColor(.gray)
-            }
-            .padding(.bottom, 20)
+            UserPanelView()
+                .padding(.bottom, 20) // 设置底部间距
+            
+//            NavigationLink(destination: UserDetailView()) { // 跳转到用户详情页面
+//                // User Info
+//                HStack {
+//                    Circle()
+//                        .fill(Color.purple)
+//                        .frame(width: 30, height: 30)
+//                        .overlay(
+//                            Text("D")
+//                                .foregroundColor(.white)
+//                                .fontWeight(.bold)
+//                        )
+//                    VStack(alignment: .leading) {
+//                        Text("Daniel Sayer")
+//                            .foregroundColor(.white)
+//                            .font(.footnote)
+//                        Text("More Options")
+//                            .foregroundColor(.gray)
+//                            .font(.caption)
+//                    }
+//                    Spacer()
+//                    Image(systemName: "ellipsis")
+//                        .foregroundColor(.gray)
+//                }
+//                .padding(.bottom, 20)
+//            }
         }
         .padding()
         .frame(width: 250)
