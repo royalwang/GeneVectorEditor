@@ -13,6 +13,7 @@ struct GeneSequenceListView: View {
     @State private var geneFiles: [GeneFile] = [] // 动态加载的基因文件
     @State private var showAddGeneAlert: Bool = false // 控制是否显示添加基因文件的弹窗
     @State private var dragOver: Bool = false // 控制拖拽高亮效果
+    @State private var isShowingDocumentPicker = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 15) {
@@ -62,6 +63,28 @@ struct GeneSequenceListView: View {
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(10)
+            }
+            
+            // 文件添加按钮
+            Button(action: {
+                isShowingDocumentPicker = true
+            }) {
+                HStack {
+                    Image(systemName: "plus")
+                        .font(.headline)
+                    Text("Upload Gene File")
+                        .font(.headline)
+                }
+                .foregroundColor(.white)
+                .padding()
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .cornerRadius(10)
+            }
+            .sheet(isPresented: $isShowingDocumentPicker) {
+                DocumentPickerView { urls in
+                    self.addFiles(urls: urls)
+                }
             }
         }
         .padding()
@@ -122,6 +145,18 @@ struct GeneSequenceListView: View {
             }),
             secondaryButton: .cancel()
         )
+    }
+    
+    // 添加文件到列表
+    private func addFiles(urls: [URL]) {
+        for url in urls {
+            if let fileURL = url as? URL {
+                print("File URL: \(fileURL)")
+                self.saveFileToSandbox(fileURL: fileURL)
+            } else {
+                print("Failed to get file URL")
+            }
+        }
     }
     
     // 处理文件拖拽
