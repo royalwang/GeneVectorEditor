@@ -14,7 +14,69 @@ struct GeneSequenceListView: View {
     @State private var showAddGeneAlert: Bool = false // 控制是否显示添加基因文件的弹窗
     @State private var dragOver: Bool = false // 控制拖拽高亮效果
     @State private var isShowingDocumentPicker = false
+    @State private var message: String = "" // 显示用户提示信息
 
+    private func uploadGeneFileButton() -> some View {
+        // 文件添加按钮
+        Button(action: {
+            isShowingDocumentPicker = true
+        }) {
+            HStack {
+                Image(systemName: "plus")
+                    .font(.headline)
+                Text("Upload Gene File")
+                    .font(.headline)
+            }
+            .foregroundColor(.white)
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.blue)
+            .cornerRadius(10)
+        }
+        .sheet(isPresented: $isShowingDocumentPicker) {
+            DocumentPickerView { urls in
+                self.addFiles(urls: urls)
+            }
+        }
+    }
+    
+    private func addGeneFileButton() -> some View {
+        // 添加基因文件按钮
+        Button(action: {
+            showAddGeneAlert = true // 显示添加弹窗
+        }) {
+            HStack {
+                Image(systemName: "plus")
+                Text("Add Gene File")
+                    .fontWeight(.bold)
+            }
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+        }
+    }
+    
+    private func addPasteGeneFileButton() -> some View {
+        // 文件粘贴按钮
+        Button(action: {
+            handleClipboardFile()
+        }) {
+            HStack {
+                Image(systemName: "doc.on.clipboard")
+                    .font(.headline)
+                Text("Paste Gene File from Clipboard")
+                    .font(.headline)
+            }
+            .foregroundColor(.white)
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.blue)
+            .cornerRadius(10)
+        }
+    }
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 15) {
             Text("Gene Files")
@@ -49,42 +111,16 @@ struct GeneSequenceListView: View {
 
             Spacer()
 
-            // 添加基因文件按钮
-            Button(action: {
-                showAddGeneAlert = true // 显示添加弹窗
-            }) {
-                HStack {
-                    Image(systemName: "plus")
-                    Text("Add Gene File")
-                        .fontWeight(.bold)
-                }
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .cornerRadius(10)
-            }
+            addGeneFileButton()
             
-            // 文件添加按钮
-            Button(action: {
-                isShowingDocumentPicker = true
-            }) {
-                HStack {
-                    Image(systemName: "plus")
-                        .font(.headline)
-                    Text("Upload Gene File")
-                        .font(.headline)
-                }
-                .foregroundColor(.white)
-                .padding()
-                .frame(maxWidth: .infinity)
-                .background(Color.blue)
-                .cornerRadius(10)
-            }
-            .sheet(isPresented: $isShowingDocumentPicker) {
-                DocumentPickerView { urls in
-                    self.addFiles(urls: urls)
-                }
+            uploadGeneFileButton()
+            
+            addPasteGeneFileButton()
+            
+            // 提示信息
+            if !message.isEmpty {
+                Text(message)
+                    .foregroundColor(.gray)
             }
         }
         .padding()
@@ -159,6 +195,51 @@ struct GeneSequenceListView: View {
         }
     }
     
+    // 处理粘贴板文件
+    private func handleClipboardFile() {
+//        // 检查剪贴板中是否有文件 URL
+//        if let clipboardString = UIPasteboard.general.string, let fileURL = URL(string: clipboardString) {
+//            print("File URL: \(fileURL)")
+//            self.saveFileToSandbox(fileURL: fileURL)
+//        } else {
+//            print("No valid file URL found in clipboard.")
+//        }
+        
+        let pasteboard = UIPasteboard.general
+
+//        // 检查剪贴板是否有文本
+//        if let stringContent = pasteboard.string {
+//            saveClipboardContentToFile(data: Data(stringContent.utf8), fileName: "clipboard_text.txt")
+//        }
+//        // 检查剪贴板是否有图片
+//        else if let image = pasteboard.image {
+//            if let imageData = image.pngData() {
+//                saveClipboardContentToFile(data: imageData, fileName: "clipboard_image.png")
+//            }
+//        }
+        // 检查剪贴板是否有文件数据
+        if let data = pasteboard.data(forPasteboardType: "public.data") {
+            do {
+                let decoder = JSONDecoder()
+                let gene = try decoder.decode(Gene.self, from: data)
+                saveClipboardContentToFile(data: data, fileName: sanitizeFileName("\(gene.name).json"))
+            } catch {
+                self.message = "JSON解析错误：\(error)"
+                print("JSON解析错误：\(error)")
+            }
+        } else {
+            message = "No valid content found in clipboard."
+        }
+    }
+    
+    func sanitizeFileName(_ fileName: String) -> String {
+        // 使用 replacingOccurrences 来替换非法字符
+        let sanitizedFileName = fileName.replacingOccurrences(of: "/", with: "_")
+                                        .replacingOccurrences(of: "\\", with: "_")
+        return sanitizedFileName
+    }
+
+    
     // 处理文件拖拽
     private func handleFileDrop(providers: [NSItemProvider]) -> Bool {
         for provider in providers {
@@ -178,6 +259,31 @@ struct GeneSequenceListView: View {
             }
         }
         return true
+    }
+    
+    // 保存剪贴板内容到沙盒
+    private func saveClipboardContentToFile(data: Data, fileName: String) {
+        do {
+            let destinationDirectory = GeneFileManager.shared.genesDirectory
+
+            // 确保目标目录存在
+            GeneFileManager.shared.createGenesDirectory()
+            
+            // 生成文件路径（带自动重命名功能）
+            let destinationURL = destinationDirectory.appendingPathComponent(fileName)
+            let finalURL = generateUniqueFileName(for: destinationURL, in: destinationDirectory)
+
+            // 写入文件
+            try data.write(to: finalURL)
+            print("File saved to \(finalURL.path)")
+            
+            DispatchQueue.main.async {
+                self.loadGeneFiles()
+            }
+        } catch {
+            print("Error saving file: \(error.localizedDescription)")
+            message = "Failed to save file: \(error.localizedDescription)"
+        }
     }
 
     // 将拖拽的文件保存到 genes 目录
@@ -224,6 +330,20 @@ struct GeneSequenceListView: View {
 
         return uniqueURL
     }
+    
+//    // 自动重命名文件以避免冲突
+//    private func generateUniqueFileName(for fileURL: URL) -> URL {
+//        var uniqueURL = fileURL
+//        var counter = 1
+//        while FileManager.default.fileExists(atPath: uniqueURL.path) {
+//            let fileName = fileURL.deletingPathExtension().lastPathComponent
+//            let fileExtension = fileURL.pathExtension
+//            let newFileName = "\(fileName) (\(counter))"
+//            uniqueURL = fileURL.deletingLastPathComponent().appendingPathComponent(newFileName).appendingPathExtension(fileExtension)
+//            counter += 1
+//        }
+//        return uniqueURL
+//    }
 
     
 //    private func saveFileToSandbox(fileURL: URL) {
