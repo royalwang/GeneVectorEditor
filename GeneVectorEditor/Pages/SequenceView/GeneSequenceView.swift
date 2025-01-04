@@ -46,7 +46,7 @@ struct SequenceLineView: View {
                     Text("\(position)")
                         .font(.custom("Courier", size: 14)) // 等宽字体
                         .foregroundColor(.gray)
-                        .frame(width: 8 * CGFloat(scaleStep), alignment: .leading) // 确保对齐
+                        .frame(width: 8.4 * CGFloat(scaleStep), alignment: .leading) // 确保对齐
                 }
             }
 
