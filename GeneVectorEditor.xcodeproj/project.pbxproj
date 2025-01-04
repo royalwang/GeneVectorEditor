@@ -63,6 +63,10 @@
 		6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */; };
 		6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */; };
 		6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD72D291C2C0087BA28 /* Functions.swift */; };
+		6F6F6ADC2D296DD80087BA28 /* IGListDiffKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADB2D296DD80087BA28 /* IGListDiffKit */; };
+		6F6F6ADE2D296DD80087BA28 /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADD2D296DD80087BA28 /* IGListKit */; };
+		6F6F6AE02D296DD80087BA28 /* IGListSwiftKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADF2D296DD80087BA28 /* IGListSwiftKit */; };
+		6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6AE32D2970790087BA28 /* SwiftUIX */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -143,7 +147,6 @@
 		6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModalView.swift; sourceTree = "<group>"; };
 		6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPanelView.swift; sourceTree = "<group>"; };
 		6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceView.swift; sourceTree = "<group>"; };
-		6F6F6AD42D291A780087BA28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F6F6AD62D291AF70087BA28 /* GeneVectorEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneVectorEditor.entitlements; sourceTree = "<group>"; };
 		6F6F6AD72D291C2C0087BA28 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
@@ -159,6 +162,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6F6ADC2D296DD80087BA28 /* IGListDiffKit in Frameworks */,
+				6F6F6ADE2D296DD80087BA28 /* IGListKit in Frameworks */,
+				6F6F6AE02D296DD80087BA28 /* IGListSwiftKit in Frameworks */,
+				6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +357,6 @@
 		6F6F6AD32D291A780087BA28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6AD42D291A780087BA28 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -460,6 +466,9 @@
 				Base,
 			);
 			mainGroup = 6F22AE2F2C0EDCC000DBC339;
+			packageReferences = (
+				6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 6F22AE392C0EDCC000DBC339 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -898,6 +907,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Instagram/IGListKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F6F6ADB2D296DD80087BA28 /* IGListDiffKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListDiffKit;
+		};
+		6F6F6ADD2D296DD80087BA28 /* IGListKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListKit;
+		};
+		6F6F6ADF2D296DD80087BA28 /* IGListSwiftKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
+			productName = IGListSwiftKit;
+		};
+		6F6F6AE32D2970790087BA28 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F22AE302C0EDCC000DBC339 /* Project object */;
 }
