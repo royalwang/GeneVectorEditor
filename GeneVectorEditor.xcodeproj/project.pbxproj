@@ -58,7 +58,6 @@
 		6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */; };
 		6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */; };
 		6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD72D291C2C0087BA28 /* Functions.swift */; };
-		6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6AE32D2970790087BA28 /* SwiftUIX */; };
 		6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */; };
 		6F6F6AE92D2973490087BA28 /* FeileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */; };
 		6F6F6AF02D2977970087BA28 /* GeneSequenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AEF2D2977970087BA28 /* GeneSequenceListView.swift */; };
@@ -183,7 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,7 +555,6 @@
 			);
 			mainGroup = 6F22AE2F2C0EDCC000DBC339;
 			packageReferences = (
-				6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
 			);
 			productRefGroup = 6F22AE392C0EDCC000DBC339 /* Products */;
 			projectDirPath = "";
@@ -1007,25 +1004,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		6F6F6AE32D2970790087BA28 /* SwiftUIX */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
-			productName = SwiftUIX;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F22AE302C0EDCC000DBC339 /* Project object */;
 }
