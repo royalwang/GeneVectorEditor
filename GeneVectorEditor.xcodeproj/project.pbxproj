@@ -43,8 +43,6 @@
 		6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A432D26F1F30087BA28 /* GenbankView.swift */; };
 		6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A452D26F1FE0087BA28 /* Genbank.swift */; };
 		6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */; };
-		6F6F6A4A2D27AD820087BA28 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A492D27AD820087BA28 /* Device.swift */; };
-		6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */; };
 		6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A502D27B1510087BA28 /* GeneDirService.swift */; };
 		6F6F6AA72D27BE9A0087BA28 /* genes111.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F6AA22D27BE9A0087BA28 /* genes111.json */; };
 		6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */; };
@@ -136,8 +134,6 @@
 		6F6F6A432D26F1F30087BA28 /* GenbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenbankView.swift; sourceTree = "<group>"; };
 		6F6F6A452D26F1FE0087BA28 /* Genbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genbank.swift; sourceTree = "<group>"; };
 		6F6F6A472D26F5E80087BA28 /* FeaturesView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeaturesView 2.swift"; sourceTree = "<group>"; };
-		6F6F6A492D27AD820087BA28 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
 		6F6F6A502D27B1510087BA28 /* GeneDirService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneDirService.swift; sourceTree = "<group>"; };
 		6F6F6AA22D27BE9A0087BA28 /* genes111.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genes111.json; sourceTree = "<group>"; };
 		6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDirectory.swift; sourceTree = "<group>"; };
@@ -361,8 +357,6 @@
 			isa = PBXGroup;
 			children = (
 				6F6F6AD72D291C2C0087BA28 /* Functions.swift */,
-				6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */,
-				6F6F6A492D27AD820087BA28 /* Device.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -566,10 +560,8 @@
 				6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */,
 				6F6F6AF22D2977CF0087BA28 /* GeneFileRow.swift in Sources */,
 				6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */,
-				6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */,
 				6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */,
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
-				6F6F6A4A2D27AD820087BA28 /* Device.swift in Sources */,
 				6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
