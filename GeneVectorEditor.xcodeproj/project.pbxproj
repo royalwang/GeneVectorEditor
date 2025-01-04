@@ -61,6 +61,8 @@
 		6F6F6ACC2D2834C60087BA28 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */; };
 		6F6F6ACE2D2835D10087BA28 /* UserDetailModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */; };
 		6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */; };
+		6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */; };
+		6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD72D291C2C0087BA28 /* Functions.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -140,6 +142,10 @@
 		6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModalView.swift; sourceTree = "<group>"; };
 		6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPanelView.swift; sourceTree = "<group>"; };
+		6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceView.swift; sourceTree = "<group>"; };
+		6F6F6AD42D291A780087BA28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F6F6AD62D291AF70087BA28 /* GeneVectorEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneVectorEditor.entitlements; sourceTree = "<group>"; };
+		6F6F6AD72D291C2C0087BA28 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +185,7 @@
 				6F22AE3A2C0EDCC000DBC339 /* GeneVectorEditor */,
 				6F22AE4D2C0EDCC200DBC339 /* GeneVectorEditorTests */,
 				6F22AE572C0EDCC200DBC339 /* GeneVectorEditorUITests */,
+				6F6F6AD32D291A780087BA28 /* Frameworks */,
 				6F22AE392C0EDCC000DBC339 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 		6F22AE3A2C0EDCC000DBC339 /* GeneVectorEditor */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AD62D291AF70087BA28 /* GeneVectorEditor.entitlements */,
 				6F6F6AA32D27BE9A0087BA28 /* Resources */,
 				6F6F6A4F2D27AE150087BA28 /* Components */,
 				6F6F6A032D26CBEC0087BA28 /* Network */,
@@ -258,6 +266,7 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
 				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
 				6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */,
 				6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */,
@@ -320,6 +329,7 @@
 		6F6F6A4F2D27AE150087BA28 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AD72D291C2C0087BA28 /* Functions.swift */,
 				6F6F6A4D2D27ADE30087BA28 /* DeviceView.swift */,
 				6F6F6A492D27AD820087BA28 /* Device.swift */,
 			);
@@ -341,6 +351,14 @@
 				6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */,
 			);
 			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		6F6F6AD32D291A780087BA28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AD42D291A780087BA28 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,8 +526,10 @@
 				6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */,
 				6F6F6ACC2D2834C60087BA28 /* UserDetailView.swift in Sources */,
 				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
+				6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */,
 				6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */,
 				6F6F6ACA2D282A750087BA28 /* FileManager.swift in Sources */,
+				6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */,
 				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,
@@ -687,6 +707,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeneVectorEditor/GeneVectorEditor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -708,6 +729,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.royalwang.GeneVectorEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -719,6 +745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeneVectorEditor/GeneVectorEditor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -740,6 +767,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.royalwang.GeneVectorEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

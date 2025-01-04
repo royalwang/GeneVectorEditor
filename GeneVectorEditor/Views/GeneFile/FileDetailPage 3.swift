@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct FileDetailPage3: View {
-    @State private var selectedTab: String = "General"
+    @State private var selectedTab: String = "Linear Map"
     @State private var gene: Gene? = nil
     @State private var loadingError: String? = nil
     
@@ -25,6 +25,7 @@ struct FileDetailPage3: View {
         VStack {
             // Custom Tab Bar
             HStack {
+                TabButton(title: "Linear Map", selectedTab: $selectedTab)
                 TabButton(title: "General", selectedTab: $selectedTab)
                 TabButton(title: "Features", selectedTab: $selectedTab)
                 TabButton(title: "Parts", selectedTab: $selectedTab)
@@ -44,6 +45,8 @@ struct FileDetailPage3: View {
             if let gene = gene {
                 ScrollView {
                     switch selectedTab {
+                    case "Linear Map":
+                        GeneSequenceView(sequence: gene.sequence, lineLength: gene.size)
                     case "General":
                         GeneralView(gene: gene)
                     case "Features":
