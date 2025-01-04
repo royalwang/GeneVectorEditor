@@ -208,6 +208,7 @@
 				6F6F6A4F2D27AE150087BA28 /* Components */,
 				6F6F6A032D26CBEC0087BA28 /* Network */,
 				6F6F69FE2D26CBD30087BA28 /* ViewModels */,
+				6F6F6AD92D291F2C0087BA28 /* Pages */,
 				6F6F69F12D26CB8D0087BA28 /* Views */,
 				6F6F69E62D26CB640087BA28 /* Models */,
 				6F22AE3B2C0EDCC000DBC339 /* GeneVectorEditorApp.swift */,
@@ -266,15 +267,8 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
-				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
 				6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */,
 				6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */,
-				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
-				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
-				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
-				6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */,
-				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
 				6F6F6ABC2D2809F40087BA28 /* Sidebar */,
 				6F6F6AB82D27E44C0087BA28 /* MainView.swift */,
 				6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */,
@@ -359,6 +353,20 @@
 				6F6F6AD42D291A780087BA28 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F6F6AD92D291F2C0087BA28 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
+				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
+				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
+				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
+				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
+				6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */,
+				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
