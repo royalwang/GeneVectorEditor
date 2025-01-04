@@ -69,9 +69,7 @@
 		6F6F6AFC2D2978A30087BA28 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFB2D2978A30087BA28 /* SidebarMenu.swift */; };
 		6F6F6AFE2D29790A0087BA28 /* GeneFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFD2D29790A0087BA28 /* GeneFile.swift */; };
 		6F6F6B002D2979480087BA28 /* GeneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFF2D2979480087BA28 /* GeneListView.swift */; };
-		6F6F6B0F2D299DBE0087BA28 /* FileUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6B0E2D299DBE0087BA28 /* FileUploadView.swift */; };
 		6F6F6B112D29A2C80087BA28 /* DocumentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6B102D29A2C80087BA28 /* DocumentPickerView.swift */; };
-		6F6F6B132D29A32A0087BA28 /* FileUploadView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6B122D29A32A0087BA28 /* FileUploadView 2.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -161,9 +159,7 @@
 		6F6F6AFD2D29790A0087BA28 /* GeneFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFile.swift; sourceTree = "<group>"; };
 		6F6F6AFF2D2979480087BA28 /* GeneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneListView.swift; sourceTree = "<group>"; };
 		6F6F6B032D2995490087BA28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		6F6F6B0E2D299DBE0087BA28 /* FileUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadView.swift; sourceTree = "<group>"; };
 		6F6F6B102D29A2C80087BA28 /* DocumentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerView.swift; sourceTree = "<group>"; };
-		6F6F6B122D29A32A0087BA28 /* FileUploadView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileUploadView 2.swift"; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -455,9 +451,7 @@
 		6F6F6B0A2D299B450087BA28 /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6B122D29A32A0087BA28 /* FileUploadView 2.swift */,
 				6F6F6B102D29A2C80087BA28 /* DocumentPickerView.swift */,
-				6F6F6B0E2D299DBE0087BA28 /* FileUploadView.swift */,
 				6F6F6AEF2D2977970087BA28 /* GeneSequenceListView.swift */,
 				6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */,
 			);
@@ -617,7 +611,6 @@
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
 				6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
-				6F6F6B0F2D299DBE0087BA28 /* FileUploadView.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
 				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
 				6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */,
@@ -651,7 +644,6 @@
 				6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */,
 				6F6F6AF62D29787D0087BA28 /* CapabilitiesView.swift in Sources */,
 				6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */,
-				6F6F6B132D29A32A0087BA28 /* FileUploadView 2.swift in Sources */,
 				6F6F6AF02D2977970087BA28 /* GeneSequenceListView.swift in Sources */,
 				6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */,
 				6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */,
