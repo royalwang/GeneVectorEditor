@@ -51,9 +51,36 @@ struct SequenceLineView: View {
             }
 
             // 序列显示
-            Text(sequence)
-                .font(.custom("Courier", size: 14)) // 等宽字体
-                .lineSpacing(5)
+            ColoredSequenceView(sequence: sequence)
+//                .font(.custom("Courier", size: 14)) // 等宽字体
+//                .lineSpacing(5)
+        }
+    }
+}
+
+struct ColoredSequenceView: View {
+    let sequence: String
+    let chunkSize: Int = 10 // 每 10 个字符分块
+    let colors: [Color] = [.blue, .green, .orange, .red, .purple] // 循环使用的颜色
+
+    var body: some View {
+        // 将序列分块后显示
+        HStack(spacing: 0) {
+            ForEach(0..<sequenceChunks.count, id: \.self) { index in
+                Text(sequenceChunks[index])
+                    .font(.custom("Courier", size: 14)) // 等宽字体
+                    .foregroundColor(colors[index % colors.count]) // 循环分配颜色
+            }
+        }
+        .lineSpacing(5) // 设置行间距
+    }
+
+    // 计算属性：将序列按 chunkSize 分割成数组
+    private var sequenceChunks: [String] {
+        stride(from: 0, to: sequence.count, by: chunkSize).map { startIndex in
+            let endIndex = min(startIndex + chunkSize, sequence.count)
+            let range = sequence.index(sequence.startIndex, offsetBy: startIndex)..<sequence.index(sequence.startIndex, offsetBy: endIndex)
+            return String(sequence[range])
         }
     }
 }
