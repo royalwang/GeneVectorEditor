@@ -63,10 +63,18 @@
 		6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */; };
 		6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */; };
 		6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AD72D291C2C0087BA28 /* Functions.swift */; };
-		6F6F6ADC2D296DD80087BA28 /* IGListDiffKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADB2D296DD80087BA28 /* IGListDiffKit */; };
-		6F6F6ADE2D296DD80087BA28 /* IGListKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADD2D296DD80087BA28 /* IGListKit */; };
-		6F6F6AE02D296DD80087BA28 /* IGListSwiftKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6ADF2D296DD80087BA28 /* IGListSwiftKit */; };
 		6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6AE32D2970790087BA28 /* SwiftUIX */; };
+		6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */; };
+		6F6F6AE92D2973490087BA28 /* FeileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */; };
+		6F6F6AF02D2977970087BA28 /* GeneSequenceListView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */; };
+		6F6F6AF22D2977CF0087BA28 /* GeneFileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */; };
+		6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF32D2978700087BA28 /* StackmapView.swift */; };
+		6F6F6AF62D29787D0087BA28 /* CapabilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */; };
+		6F6F6AF82D2978880087BA28 /* TechnologiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF72D2978880087BA28 /* TechnologiesView.swift */; };
+		6F6F6AFA2D2978950087BA28 /* RoadmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF92D2978950087BA28 /* RoadmapView.swift */; };
+		6F6F6AFC2D2978A30087BA28 /* SidebarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFB2D2978A30087BA28 /* SidebarMenu.swift */; };
+		6F6F6AFE2D29790A0087BA28 /* GeneFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFD2D29790A0087BA28 /* GeneFile.swift */; };
+		6F6F6B002D2979480087BA28 /* GeneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AFF2D2979480087BA28 /* GeneListView.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
 /* End PBXBuildFile section */
@@ -149,12 +157,35 @@
 		6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceView.swift; sourceTree = "<group>"; };
 		6F6F6AD62D291AF70087BA28 /* GeneVectorEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeneVectorEditor.entitlements; sourceTree = "<group>"; };
 		6F6F6AD72D291C2C0087BA28 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFileManager.swift; sourceTree = "<group>"; };
+		6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeileManagerTests.swift; sourceTree = "<group>"; };
+		6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneSequenceListView 2.swift"; sourceTree = "<group>"; };
+		6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFileRow.swift; sourceTree = "<group>"; };
+		6F6F6AF32D2978700087BA28 /* StackmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackmapView.swift; sourceTree = "<group>"; };
+		6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilitiesView.swift; sourceTree = "<group>"; };
+		6F6F6AF72D2978880087BA28 /* TechnologiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologiesView.swift; sourceTree = "<group>"; };
+		6F6F6AF92D2978950087BA28 /* RoadmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadmapView.swift; sourceTree = "<group>"; };
+		6F6F6AFB2D2978A30087BA28 /* SidebarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenu.swift; sourceTree = "<group>"; };
+		6F6F6AFD2D29790A0087BA28 /* GeneFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFile.swift; sourceTree = "<group>"; };
+		6F6F6AFF2D2979480087BA28 /* GeneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneListView.swift; sourceTree = "<group>"; };
+		6F6F6B032D2995490087BA28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6F6F6AEE2D29769C0087BA28 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ChecklistItem.swift,
+			);
+			target = 6F22AE372C0EDCC000DBC339 /* GeneVectorEditor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6F6F6AAB2D27BE9D0087BA28 /* genes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = genes; sourceTree = "<group>"; };
+		6F6F6AED2D29767F0087BA28 /* Archives */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (6F6F6AEE2D29769C0087BA28 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Archives; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +193,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F6F6ADC2D296DD80087BA28 /* IGListDiffKit in Frameworks */,
-				6F6F6ADE2D296DD80087BA28 /* IGListKit in Frameworks */,
-				6F6F6AE02D296DD80087BA28 /* IGListSwiftKit in Frameworks */,
 				6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +238,9 @@
 		6F22AE3A2C0EDCC000DBC339 /* GeneVectorEditor */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AED2D29767F0087BA28 /* Archives */,
 				6F6F6AD62D291AF70087BA28 /* GeneVectorEditor.entitlements */,
+				6F6F6AE52D2973240087BA28 /* Utils */,
 				6F6F6AA32D27BE9A0087BA28 /* Resources */,
 				6F6F6A4F2D27AE150087BA28 /* Components */,
 				6F6F6A032D26CBEC0087BA28 /* Network */,
@@ -240,6 +270,7 @@
 		6F22AE4D2C0EDCC200DBC339 /* GeneVectorEditorTests */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */,
 				6F22AE4E2C0EDCC200DBC339 /* GeneVectorEditorTests.swift */,
 			);
 			path = GeneVectorEditorTests;
@@ -278,7 +309,6 @@
 				6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */,
 				6F6F6ABC2D2809F40087BA28 /* Sidebar */,
 				6F6F6AB82D27E44C0087BA28 /* MainView.swift */,
-				6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */,
 				6F6F6A362D26EF230087BA28 /* GeneFile */,
 				6F6F6A2C2D26E9820087BA28 /* GeneData.swift */,
 				6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */,
@@ -357,6 +387,7 @@
 		6F6F6AD32D291A780087BA28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6B032D2995490087BA28 /* AppKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -364,15 +395,33 @@
 		6F6F6AD92D291F2C0087BA28 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */,
+				6F6F6AF92D2978950087BA28 /* RoadmapView.swift */,
+				6F6F6AF72D2978880087BA28 /* TechnologiesView.swift */,
+				6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */,
+				6F6F6AF32D2978700087BA28 /* StackmapView.swift */,
+				6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */,
+				6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */,
 				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
 				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
 				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
 				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
 				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
 				6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */,
+				6F6F6AFF2D2979480087BA28 /* GeneListView.swift */,
 				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		6F6F6AE52D2973240087BA28 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AFD2D29790A0087BA28 /* GeneFile.swift */,
+				6F6F6AFB2D2978A30087BA28 /* SidebarMenu.swift */,
+				6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,11 +564,13 @@
 				6F22AE682C0F4AC700DBC339 /* CircularView.swift in Sources */,
 				6F6F6AC62D2828990087BA28 /* SettingsView.swift in Sources */,
 				6F6F6A002D26CBDF0087BA28 /* GeneViewModel.swift in Sources */,
+				6F6F6AF22D2977CF0087BA28 /* GeneFileRow.swift in Sources */,
 				6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */,
 				6F6F6A4E2D27ADEA0087BA28 /* DeviceView.swift in Sources */,
 				6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */,
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
 				6F6F6A4A2D27AD820087BA28 /* Device.swift in Sources */,
+				6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
 				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
@@ -537,6 +588,8 @@
 				6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */,
 				6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */,
 				6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */,
+				6F6F6AFA2D2978950087BA28 /* RoadmapView.swift in Sources */,
+				6F6F6AFC2D2978A30087BA28 /* SidebarMenu.swift in Sources */,
 				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
 				6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
@@ -549,16 +602,22 @@
 				6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */,
 				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
+				6F6F6B002D2979480087BA28 /* GeneListView.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,
 				6F6F6A232D26E5E30087BA28 /* ManageEnzymesView.swift in Sources */,
 				6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */,
+				6F6F6AF62D29787D0087BA28 /* CapabilitiesView.swift in Sources */,
 				6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */,
+				6F6F6AF02D2977970087BA28 /* GeneSequenceListView 2.swift in Sources */,
 				6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */,
+				6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */,
 				6F6F6A092D26CCBD0087BA28 /* Extensions.swift in Sources */,
 				6F6F6A252D26E6540087BA28 /* FeaturesView.swift in Sources */,
+				6F6F6AF82D2978880087BA28 /* TechnologiesView.swift in Sources */,
 				6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */,
 				6F22AE3C2C0EDCC000DBC339 /* GeneVectorEditorApp.swift in Sources */,
 				6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */,
+				6F6F6AFE2D29790A0087BA28 /* GeneFile.swift in Sources */,
 				6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */,
 				6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */,
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
@@ -572,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F22AE4F2C0EDCC200DBC339 /* GeneVectorEditorTests.swift in Sources */,
+				6F6F6AE92D2973490087BA28 /* FeileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,12 +786,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GeneVectorEditor/GeneVectorEditor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GeneVectorEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = G89SH2C4CP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -764,12 +826,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GeneVectorEditor/GeneVectorEditor.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GeneVectorEditor/Preview Content\"";
 				DEVELOPMENT_TEAM = G89SH2C4CP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -909,14 +973,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Instagram/IGListKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 		6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
@@ -928,21 +984,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6F6F6ADB2D296DD80087BA28 /* IGListDiffKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListDiffKit;
-		};
-		6F6F6ADD2D296DD80087BA28 /* IGListKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListKit;
-		};
-		6F6F6ADF2D296DD80087BA28 /* IGListSwiftKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6F6F6ADA2D296DD80087BA28 /* XCRemoteSwiftPackageReference "IGListKit" */;
-			productName = IGListSwiftKit;
-		};
 		6F6F6AE32D2970790087BA28 /* SwiftUIX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6F6F6AE22D2970790087BA28 /* XCRemoteSwiftPackageReference "SwiftUIX" */;

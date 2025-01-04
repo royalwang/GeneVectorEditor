@@ -23,7 +23,7 @@ struct DashboardView: View {
                     case .dashboard:
                         DashboardContentView()
                     case .stackmap:
-                        StackmapView()
+                        GeneSequenceListView()
                     case .capabilities:
                         CapabilitiesView()
                     case .technologies:
@@ -49,50 +49,6 @@ struct DashboardView: View {
     }
 }
 
-struct StackmapView: View {
-    var body: some View {
-        Text("Stackmap Content View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
-
-struct CapabilitiesView: View {
-    var body: some View {
-        Text("Capabilities Content View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
-
-struct TechnologiesView: View {
-    var body: some View {
-        Text("Technologies Content View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
-
-struct RoadmapView: View {
-    var body: some View {
-        Text("Roadmap Content View")
-            .font(.largeTitle)
-            .foregroundColor(.blue)
-    }
-}
-
-// 菜单选项的枚举
-enum SidebarMenu {
-    case dashboard
-    case stackmap
-    case capabilities
-    case technologies
-    case roadmap
-    //
-    case notification
-    case setting
-    case help
-}
 
 struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
