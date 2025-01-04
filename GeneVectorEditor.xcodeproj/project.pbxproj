@@ -29,7 +29,6 @@
 		6F6F6A232D26E5E30087BA28 /* ManageEnzymesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */; };
 		6F6F6A252D26E6540087BA28 /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A242D26E6540087BA28 /* FeaturesView.swift */; };
 		6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A282D26E74A0087BA28 /* GeneralView.swift */; };
-		6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */; };
 		6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A2C2D26E9820087BA28 /* GeneData.swift */; };
 		6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */; };
 		6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6A322D26EE240087BA28 /* PartsView 2.swift */; };
@@ -47,11 +46,9 @@
 		6F6F6AA72D27BE9A0087BA28 /* genes111.json in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F6AA22D27BE9A0087BA28 /* genes111.json */; };
 		6F6F6AB12D27C0E10087BA28 /* LocalDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */; };
 		6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */; };
-		6F6F6AB52D27DFC10087BA28 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */; };
+		6F6F6AB52D27DFC10087BA28 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB42D27DFC10087BA28 /* MainDashboardView.swift */; };
 		6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */; };
-		6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AB82D27E44C0087BA28 /* MainView.swift */; };
 		6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */; };
-		6F6F6AC22D2822F30087BA28 /* GeneSequenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */; };
 		6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC32D2828220087BA28 /* NotificationsView.swift */; };
 		6F6F6AC62D2828990087BA28 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC52D2828990087BA28 /* SettingsView.swift */; };
 		6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AC72D2828C90087BA28 /* HelpView.swift */; };
@@ -64,7 +61,7 @@
 		6F6F6AE42D2970790087BA28 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6F6AE32D2970790087BA28 /* SwiftUIX */; };
 		6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */; };
 		6F6F6AE92D2973490087BA28 /* FeileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */; };
-		6F6F6AF02D2977970087BA28 /* GeneSequenceListView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */; };
+		6F6F6AF02D2977970087BA28 /* GeneSequenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AEF2D2977970087BA28 /* GeneSequenceListView.swift */; };
 		6F6F6AF22D2977CF0087BA28 /* GeneFileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */; };
 		6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF32D2978700087BA28 /* StackmapView.swift */; };
 		6F6F6AF62D29787D0087BA28 /* CapabilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */; };
@@ -120,7 +117,6 @@
 		6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageEnzymesView.swift; sourceTree = "<group>"; };
 		6F6F6A242D26E6540087BA28 /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
 		6F6F6A282D26E74A0087BA28 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
-		6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneDetailView 2.swift"; sourceTree = "<group>"; };
 		6F6F6A2C2D26E9820087BA28 /* GeneData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneData.swift; sourceTree = "<group>"; };
 		6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileDetailPage 3.swift"; sourceTree = "<group>"; };
 		6F6F6A322D26EE240087BA28 /* PartsView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PartsView 2.swift"; sourceTree = "<group>"; };
@@ -138,11 +134,9 @@
 		6F6F6AA22D27BE9A0087BA28 /* genes111.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = genes111.json; sourceTree = "<group>"; };
 		6F6F6AB02D27C0E00087BA28 /* LocalDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDirectory.swift; sourceTree = "<group>"; };
 		6F6F6AB22D27C1A20087BA28 /* SanboxDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanboxDirectory.swift; sourceTree = "<group>"; };
-		6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		6F6F6AB42D27DFC10087BA28 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
 		6F6F6AB62D27E1D70087BA28 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
-		6F6F6AB82D27E44C0087BA28 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
-		6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceListView.swift; sourceTree = "<group>"; };
 		6F6F6AC32D2828220087BA28 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		6F6F6AC52D2828990087BA28 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		6F6F6AC72D2828C90087BA28 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
@@ -155,7 +149,7 @@
 		6F6F6AD72D291C2C0087BA28 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFileManager.swift; sourceTree = "<group>"; };
 		6F6F6AE82D2973410087BA28 /* FeileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeileManagerTests.swift; sourceTree = "<group>"; };
-		6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneSequenceListView 2.swift"; sourceTree = "<group>"; };
+		6F6F6AEF2D2977970087BA28 /* GeneSequenceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneSequenceListView.swift; sourceTree = "<group>"; };
 		6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneFileRow.swift; sourceTree = "<group>"; };
 		6F6F6AF32D2978700087BA28 /* StackmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackmapView.swift; sourceTree = "<group>"; };
 		6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilitiesView.swift; sourceTree = "<group>"; };
@@ -246,6 +240,7 @@
 				6F6F69E62D26CB640087BA28 /* Models */,
 				6F22AE3B2C0EDCC000DBC339 /* GeneVectorEditorApp.swift */,
 				6F22AE3F2C0EDCC000DBC339 /* Item.swift */,
+				6F6F6A082D26CCB80087BA28 /* Extensions.swift */,
 				6F22AE672C0F4AC700DBC339 /* CircularView.swift */,
 				6F22AE412C0EDCC200DBC339 /* Assets.xcassets */,
 				6F22AE432C0EDCC200DBC339 /* Preview Content */,
@@ -301,15 +296,9 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */,
-				6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */,
 				6F6F6ABC2D2809F40087BA28 /* Sidebar */,
-				6F6F6AB82D27E44C0087BA28 /* MainView.swift */,
 				6F6F6A362D26EF230087BA28 /* GeneFile */,
 				6F6F6A2C2D26E9820087BA28 /* GeneData.swift */,
-				6F6F6A2A2D26E9130087BA28 /* GeneDetailView 2.swift */,
-				6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */,
-				6F6F6A082D26CCB80087BA28 /* Extensions.swift */,
 				6F6F69F42D26CB9E0087BA28 /* GeneCellView.swift */,
 				6F6F69F22D26CB960087BA28 /* ContentView.swift */,
 			);
@@ -389,21 +378,19 @@
 		6F6F6AD92D291F2C0087BA28 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				6F6F6AB42D27DFC10087BA28 /* DashboardView.swift */,
+				6F6F6B0D2D299B7C0087BA28 /* SequenceView */,
+				6F6F6B0A2D299B450087BA28 /* Sequence */,
+				6F6F6B092D299AA60087BA28 /* Settings */,
+				6F6F6B082D299A9A0087BA28 /* Notifications */,
+				6F6F6B072D299A910087BA28 /* User */,
+				6F6F6B062D299A870087BA28 /* Help */,
+				6F6F6B052D299A7C0087BA28 /* Dashboard */,
 				6F6F6AF92D2978950087BA28 /* RoadmapView.swift */,
 				6F6F6AF72D2978880087BA28 /* TechnologiesView.swift */,
 				6F6F6AF52D29787D0087BA28 /* CapabilitiesView.swift */,
 				6F6F6AF32D2978700087BA28 /* StackmapView.swift */,
-				6F6F6AEF2D2977970087BA28 /* GeneSequenceListView 2.swift */,
-				6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */,
-				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
-				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
-				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
-				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
-				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
-				6F6F6AC12D2822F20087BA28 /* GeneSequenceListView.swift */,
-				6F6F6AFF2D2979480087BA28 /* GeneListView.swift */,
-				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
+				6F6F6AB42D27DFC10087BA28 /* MainDashboardView.swift */,
+				6F6F6A222D26E5E30087BA28 /* ManageEnzymesView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -416,6 +403,66 @@
 				6F6F6AE62D2973310087BA28 /* GeneFileManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		6F6F6B052D299A7C0087BA28 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6ABD2D280D520087BA28 /* DashboardContentView.swift */,
+				6F6F6AFF2D2979480087BA28 /* GeneListView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		6F6F6B062D299A870087BA28 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AC72D2828C90087BA28 /* HelpView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		6F6F6B072D299A910087BA28 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6ACF2D2836060087BA28 /* UserPanelView.swift */,
+				6F6F6ACD2D2835D10087BA28 /* UserDetailModalView.swift */,
+				6F6F6ACB2D2834C60087BA28 /* UserDetailView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		6F6F6B082D299A9A0087BA28 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AC32D2828220087BA28 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		6F6F6B092D299AA60087BA28 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AC52D2828990087BA28 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6F6F6B0A2D299B450087BA28 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AEF2D2977970087BA28 /* GeneSequenceListView.swift */,
+				6F6F6AF12D2977CF0087BA28 /* GeneFileRow.swift */,
+			);
+			path = Sequence;
+			sourceTree = "<group>";
+		};
+		6F6F6B0D2D299B7C0087BA28 /* SequenceView */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F6AD12D29174A0087BA28 /* GeneSequenceView.swift */,
+			);
+			path = SequenceView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,13 +616,11 @@
 				6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */,
 				6F6F6ACE2D2835D10087BA28 /* UserDetailModalView.swift in Sources */,
 				6F6F69EC2D26CB790087BA28 /* GenePrimer.swift in Sources */,
-				6F6F6AC22D2822F30087BA28 /* GeneSequenceListView.swift in Sources */,
 				6F6F69F52D26CBA20087BA28 /* GeneCellView.swift in Sources */,
 				6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */,
 				6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */,
 				6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */,
 				6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */,
-				6F6F6AB92D27E44C0087BA28 /* MainView.swift in Sources */,
 				6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */,
 				6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */,
 				6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */,
@@ -583,7 +628,6 @@
 				6F6F6AFA2D2978950087BA28 /* RoadmapView.swift in Sources */,
 				6F6F6AFC2D2978A30087BA28 /* SidebarMenu.swift in Sources */,
 				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
-				6F6F6A2B2D26E9130087BA28 /* GeneDetailView 2.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
 				6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */,
 				6F6F6ACC2D2834C60087BA28 /* UserDetailView.swift in Sources */,
@@ -600,7 +644,7 @@
 				6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */,
 				6F6F6AF62D29787D0087BA28 /* CapabilitiesView.swift in Sources */,
 				6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */,
-				6F6F6AF02D2977970087BA28 /* GeneSequenceListView 2.swift in Sources */,
+				6F6F6AF02D2977970087BA28 /* GeneSequenceListView.swift in Sources */,
 				6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */,
 				6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */,
 				6F6F6A092D26CCBD0087BA28 /* Extensions.swift in Sources */,
@@ -613,7 +657,7 @@
 				6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */,
 				6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */,
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
-				6F6F6AB52D27DFC10087BA28 /* DashboardView.swift in Sources */,
+				6F6F6AB52D27DFC10087BA28 /* MainDashboardView.swift in Sources */,
 				6F6F69EE2D26CB800087BA28 /* GeneTranslation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

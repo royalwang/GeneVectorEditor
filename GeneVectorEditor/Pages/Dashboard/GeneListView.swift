@@ -14,7 +14,7 @@ struct GeneListView: View {
         List {
             ForEach(geneFiles) { file in
                 NavigationLink(destination: FileDetailPage3(fileName: file.name)) {
-                    GeneFileRow(file: file, onDelete: deleteGeneFile)
+                    GeneFileRow2(file: file)
                 }
             }
         }
@@ -54,4 +54,52 @@ struct GeneListView: View {
         }
     }
     
+}
+
+// 每一行的视图
+struct GeneFileRow2: View {
+    let file: GeneFile
+
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 5) {
+                Text(file.name)
+                    .font(.headline)
+                    .foregroundColor(.black)
+                Text("\(file.size) • Last modified: \(file.lastModified)")
+                    .font(.subheadline)
+                    .foregroundColor(.gray)
+            }
+
+            Spacer()
+
+            if file.isCompleted {
+                Button(action: {
+                    // 下载或查看文件的操作
+                }) {
+                    Text("Download")
+                        .foregroundColor(.white)
+                        .padding(.vertical, 5)
+                        .padding(.horizontal, 15)
+                        .background(Color.green)
+                        .cornerRadius(8)
+                }
+            } else {
+                Button(action: {
+                    // 查看或处理文件的操作
+                }) {
+                    Text("View")
+                        .foregroundColor(.white)
+                        .padding(.vertical, 5)
+                        .padding(.horizontal, 15)
+                        .background(Color.blue)
+                        .cornerRadius(8)
+                }
+            }
+        }
+        .padding()
+        .background(Color.white)
+        .cornerRadius(10)
+        .shadow(color: Color.gray.opacity(0.2), radius: 5, x: 0, y: 2)
+    }
 }
