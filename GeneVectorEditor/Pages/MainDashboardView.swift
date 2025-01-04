@@ -25,7 +25,7 @@ struct DashboardView: View {
                     case .stackmap:
                         GeneSequenceListView()
                     case .capabilities:
-                        FileUploadView()
+                        CapabilitiesView()
                     case .technologies:
                         TechnologiesView()
                     case .roadmap:
