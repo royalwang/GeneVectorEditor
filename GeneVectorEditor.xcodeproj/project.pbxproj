@@ -72,6 +72,38 @@
 		6F6F6B112D29A2C80087BA28 /* DocumentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F6B102D29A2C80087BA28 /* DocumentPickerView.swift */; };
 		6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36C2C104815008F86CD /* IconCardView.swift */; };
 		6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */; };
+		6FB464D02D355C0D0008E66A /* LinearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464CF2D355C0D0008E66A /* LinearView.swift */; };
+		6FB464D22D355C290008E66A /* SequenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464D12D355C290008E66A /* SequenceData.swift */; };
+		6FB464D42D355EA60008E66A /* ZoomLinearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464D32D355EA60008E66A /* ZoomLinearView.swift */; };
+		6FB464D62D355EEB0008E66A /* ZoomLinearView_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464D52D355EEB0008E66A /* ZoomLinearView_ContentView.swift */; };
+		6FB464D82D355FCF0008E66A /* SequenceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464D72D355FCF0008E66A /* SequenceName.swift */; };
+		6FB464DA2D355FE50008E66A /* SequenceName_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464D92D355FE50008E66A /* SequenceName_ContentView.swift */; };
+		6FB464DE2D3561110008E66A /* Caret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464DD2D3561110008E66A /* Caret.swift */; };
+		6FB464E02D35611C0008E66A /* Caret_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464DF2D35611C0008E66A /* Caret_ContentView.swift */; };
+		6FB464E32D3561CE0008E66A /* ChromatogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464E22D3561CE0008E66A /* ChromatogramView.swift */; };
+		6FB464E52D3561EE0008E66A /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464E42D3561EE0008E66A /* Row.swift */; };
+		6FB464E82D356AC90008E66A /* DeletionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464E72D356AC90008E66A /* DeletionLayer.swift */; };
+		6FB464EB2D356C0F0008E66A /* SelectionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464EA2D356C0F0008E66A /* SelectionLayer.swift */; };
+		6FB464EE2D356F4E0008E66A /* PointedAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464ED2D356F4E0008E66A /* PointedAnnotation.swift */; };
+		6FB464F22D3577890008E66A /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464F12D3577890008E66A /* CanvasView.swift */; };
+		6FB464F82D357CF70008E66A /* SVGPath in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB464F72D357CF70008E66A /* SVGPath */; };
+		6FB464FA2D357E080008E66A /* PointedAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464F92D357E080008E66A /* PointedAnnotationView.swift */; };
+		6FB464FC2D357FC70008E66A /* AnnotationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464FB2D357FC70008E66A /* AnnotationStyle.swift */; };
+		6FB464FE2D357FD30008E66A /* AnnotationDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464FD2D357FD30008E66A /* AnnotationDimensions.swift */; };
+		6FB465002D357FDE0008E66A /* AnnotationInteractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB464FF2D357FDE0008E66A /* AnnotationInteractions.swift */; };
+		6FB465022D357FE80008E66A /* AnnotationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465012D357FE80008E66A /* AnnotationContent.swift */; };
+		6FB465042D357FF20008E66A /* AnnotationShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465032D357FF20008E66A /* AnnotationShape.swift */; };
+		6FB465062D357FFC0008E66A /* PointedAnnotation 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465052D357FFC0008E66A /* PointedAnnotation 3.swift */; };
+		6FB465092D3582410008E66A /* DNASequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465082D3582410008E66A /* DNASequence.swift */; };
+		6FB4650B2D35824C0008E66A /* SequenceRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4650A2D35824C0008E66A /* SequenceRenderer.swift */; };
+		6FB4650D2D3582580008E66A /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4650C2D3582580008E66A /* Annotation.swift */; };
+		6FB4650F2D3582670008E66A /* ColorRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4650E2D3582670008E66A /* ColorRenderer.swift */; };
+		6FB465112D3582730008E66A /* ScrollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465102D3582730008E66A /* ScrollData.swift */; };
+		6FB465132D3582800008E66A /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465122D3582800008E66A /* Sequence.swift */; };
+		6FB465152D3582FC0008E66A /* Sequence_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465142D3582FB0008E66A /* Sequence_ContentView.swift */; };
+		6FB465172D358EF50008E66A /* ColorRenderer 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465162D358EF50008E66A /* ColorRenderer 2.swift */; };
+		6FB465192D359A4C0008E66A /* PrimeHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465182D359A4C0008E66A /* PrimeHintView.swift */; };
+		6FB4651B2D359AD70008E66A /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651A2D359AD70008E66A /* SequenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +194,37 @@
 		6F6F6B102D29A2C80087BA28 /* DocumentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerView.swift; sourceTree = "<group>"; };
 		6F72D36C2C104815008F86CD /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
 		6F72D36E2C10483D008F86CD /* IconCardViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardViewTest.swift; sourceTree = "<group>"; };
+		6FB464CF2D355C0D0008E66A /* LinearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearView.swift; sourceTree = "<group>"; };
+		6FB464D12D355C290008E66A /* SequenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceData.swift; sourceTree = "<group>"; };
+		6FB464D32D355EA60008E66A /* ZoomLinearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinearView.swift; sourceTree = "<group>"; };
+		6FB464D52D355EEB0008E66A /* ZoomLinearView_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLinearView_ContentView.swift; sourceTree = "<group>"; };
+		6FB464D72D355FCF0008E66A /* SequenceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceName.swift; sourceTree = "<group>"; };
+		6FB464D92D355FE50008E66A /* SequenceName_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceName_ContentView.swift; sourceTree = "<group>"; };
+		6FB464DD2D3561110008E66A /* Caret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caret.swift; sourceTree = "<group>"; };
+		6FB464DF2D35611C0008E66A /* Caret_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caret_ContentView.swift; sourceTree = "<group>"; };
+		6FB464E22D3561CE0008E66A /* ChromatogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromatogramView.swift; sourceTree = "<group>"; };
+		6FB464E42D3561EE0008E66A /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		6FB464E72D356AC90008E66A /* DeletionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletionLayer.swift; sourceTree = "<group>"; };
+		6FB464EA2D356C0F0008E66A /* SelectionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionLayer.swift; sourceTree = "<group>"; };
+		6FB464ED2D356F4E0008E66A /* PointedAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointedAnnotation.swift; sourceTree = "<group>"; };
+		6FB464F12D3577890008E66A /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		6FB464F92D357E080008E66A /* PointedAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointedAnnotationView.swift; sourceTree = "<group>"; };
+		6FB464FB2D357FC70008E66A /* AnnotationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationStyle.swift; sourceTree = "<group>"; };
+		6FB464FD2D357FD30008E66A /* AnnotationDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDimensions.swift; sourceTree = "<group>"; };
+		6FB464FF2D357FDE0008E66A /* AnnotationInteractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationInteractions.swift; sourceTree = "<group>"; };
+		6FB465012D357FE80008E66A /* AnnotationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationContent.swift; sourceTree = "<group>"; };
+		6FB465032D357FF20008E66A /* AnnotationShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationShape.swift; sourceTree = "<group>"; };
+		6FB465052D357FFC0008E66A /* PointedAnnotation 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointedAnnotation 3.swift"; sourceTree = "<group>"; };
+		6FB465082D3582410008E66A /* DNASequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNASequence.swift; sourceTree = "<group>"; };
+		6FB4650A2D35824C0008E66A /* SequenceRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceRenderer.swift; sourceTree = "<group>"; };
+		6FB4650C2D3582580008E66A /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		6FB4650E2D3582670008E66A /* ColorRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRenderer.swift; sourceTree = "<group>"; };
+		6FB465102D3582730008E66A /* ScrollData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollData.swift; sourceTree = "<group>"; };
+		6FB465122D3582800008E66A /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		6FB465142D3582FB0008E66A /* Sequence_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence_ContentView.swift; sourceTree = "<group>"; };
+		6FB465162D358EF50008E66A /* ColorRenderer 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorRenderer 2.swift"; sourceTree = "<group>"; };
+		6FB465182D359A4C0008E66A /* PrimeHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeHintView.swift; sourceTree = "<group>"; };
+		6FB4651A2D359AD70008E66A /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -184,6 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB464F82D357CF70008E66A /* SVGPath in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +357,7 @@
 		6F6F69F12D26CB8D0087BA28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6FB464F02D3577820008E66A /* Canvas */,
 				6F6F6ABC2D2809F40087BA28 /* Sidebar */,
 				6F6F6A362D26EF230087BA28 /* GeneFile */,
 				6F6F6A2C2D26E9820087BA28 /* GeneData.swift */,
@@ -526,6 +591,13 @@
 		6FB464C12D35585E0008E66A /* LinearView */ = {
 			isa = PBXGroup;
 			children = (
+				6FB464DB2D3560BD0008E66A /* RowItem */,
+				6FB464D92D355FE50008E66A /* SequenceName_ContentView.swift */,
+				6FB464D72D355FCF0008E66A /* SequenceName.swift */,
+				6FB464D52D355EEB0008E66A /* ZoomLinearView_ContentView.swift */,
+				6FB464D32D355EA60008E66A /* ZoomLinearView.swift */,
+				6FB464D12D355C290008E66A /* SequenceData.swift */,
+				6FB464CF2D355C0D0008E66A /* LinearView.swift */,
 			);
 			path = LinearView;
 			sourceTree = "<group>";
@@ -634,6 +706,93 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		6FB464DB2D3560BD0008E66A /* RowItem */ = {
+			isa = PBXGroup;
+			children = (
+				6FB465072D3582390008E66A /* Sequence */,
+				6FB464EC2D356F440008E66A /* StackedAnnotations */,
+				6FB464E92D356BBA0008E66A /* SelectionLayer */,
+				6FB464E62D356A510008E66A /* DeletionLayers */,
+				6FB464E42D3561EE0008E66A /* Row.swift */,
+				6FB464E12D3561B60008E66A /* Chromatograms */,
+				6FB464DC2D3560E30008E66A /* Caret */,
+			);
+			path = RowItem;
+			sourceTree = "<group>";
+		};
+		6FB464DC2D3560E30008E66A /* Caret */ = {
+			isa = PBXGroup;
+			children = (
+				6FB464DF2D35611C0008E66A /* Caret_ContentView.swift */,
+				6FB464DD2D3561110008E66A /* Caret.swift */,
+			);
+			path = Caret;
+			sourceTree = "<group>";
+		};
+		6FB464E12D3561B60008E66A /* Chromatograms */ = {
+			isa = PBXGroup;
+			children = (
+				6FB464E22D3561CE0008E66A /* ChromatogramView.swift */,
+			);
+			path = Chromatograms;
+			sourceTree = "<group>";
+		};
+		6FB464E62D356A510008E66A /* DeletionLayers */ = {
+			isa = PBXGroup;
+			children = (
+				6FB464E72D356AC90008E66A /* DeletionLayer.swift */,
+			);
+			path = DeletionLayers;
+			sourceTree = "<group>";
+		};
+		6FB464E92D356BBA0008E66A /* SelectionLayer */ = {
+			isa = PBXGroup;
+			children = (
+				6FB464EA2D356C0F0008E66A /* SelectionLayer.swift */,
+			);
+			path = SelectionLayer;
+			sourceTree = "<group>";
+		};
+		6FB464EC2D356F440008E66A /* StackedAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				6FB465052D357FFC0008E66A /* PointedAnnotation 3.swift */,
+				6FB465032D357FF20008E66A /* AnnotationShape.swift */,
+				6FB465012D357FE80008E66A /* AnnotationContent.swift */,
+				6FB464FF2D357FDE0008E66A /* AnnotationInteractions.swift */,
+				6FB464FD2D357FD30008E66A /* AnnotationDimensions.swift */,
+				6FB464FB2D357FC70008E66A /* AnnotationStyle.swift */,
+				6FB464ED2D356F4E0008E66A /* PointedAnnotation.swift */,
+			);
+			path = StackedAnnotations;
+			sourceTree = "<group>";
+		};
+		6FB464F02D3577820008E66A /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				6FB464F92D357E080008E66A /* PointedAnnotationView.swift */,
+				6FB464F12D3577890008E66A /* CanvasView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		6FB465072D3582390008E66A /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				6FB4651A2D359AD70008E66A /* SequenceView.swift */,
+				6FB465182D359A4C0008E66A /* PrimeHintView.swift */,
+				6FB465162D358EF50008E66A /* ColorRenderer 2.swift */,
+				6FB465142D3582FB0008E66A /* Sequence_ContentView.swift */,
+				6FB465122D3582800008E66A /* Sequence.swift */,
+				6FB465102D3582730008E66A /* ScrollData.swift */,
+				6FB4650E2D3582670008E66A /* ColorRenderer.swift */,
+				6FB4650C2D3582580008E66A /* Annotation.swift */,
+				6FB4650A2D35824C0008E66A /* SequenceRenderer.swift */,
+				6FB465082D3582410008E66A /* DNASequence.swift */,
+			);
+			path = Sequence;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -726,6 +885,7 @@
 			);
 			mainGroup = 6F22AE2F2C0EDCC000DBC339;
 			packageReferences = (
+				6FB464F62D357CF70008E66A /* XCRemoteSwiftPackageReference "SVGPath" */,
 			);
 			productRefGroup = 6F22AE392C0EDCC000DBC339 /* Products */;
 			projectDirPath = "";
@@ -778,35 +938,59 @@
 				6F6F6AB32D27C1A90087BA28 /* SanboxDirectory.swift in Sources */,
 				6F6F69F32D26CB990087BA28 /* ContentView.swift in Sources */,
 				6F6F6AF42D2978700087BA28 /* StackmapView.swift in Sources */,
+				6FB465172D358EF50008E66A /* ColorRenderer 2.swift in Sources */,
+				6FB464EE2D356F4E0008E66A /* PointedAnnotation.swift in Sources */,
+				6FB464FA2D357E080008E66A /* PointedAnnotationView.swift in Sources */,
+				6FB4651B2D359AD70008E66A /* SequenceView.swift in Sources */,
 				6F22AE402C0EDCC000DBC339 /* Item.swift in Sources */,
 				6F6F69E82D26CB6B0087BA28 /* Gene.swift in Sources */,
 				6F6F6A3E2D26F1680087BA28 /* CutSite.swift in Sources */,
 				6F6F6A402D26F1B40087BA28 /* ORFsView.swift in Sources */,
 				6F6F6ACE2D2835D10087BA28 /* UserDetailModalView.swift in Sources */,
 				6F6F69EC2D26CB790087BA28 /* GenePrimer.swift in Sources */,
+				6FB465042D357FF20008E66A /* AnnotationShape.swift in Sources */,
 				6F6F69F52D26CBA20087BA28 /* GeneCellView.swift in Sources */,
 				6F6F6A422D26F1C00087BA28 /* ORFs.swift in Sources */,
 				6F6F6A442D26F1F30087BA28 /* GenbankView.swift in Sources */,
 				6F6F6A3A2D26F0E10087BA28 /* TranslationsView.swift in Sources */,
 				6F6F69EA2D26CB720087BA28 /* GeneFeature.swift in Sources */,
 				6F6F6AB72D27E1D70087BA28 /* SidebarView.swift in Sources */,
+				6FB465132D3582800008E66A /* Sequence.swift in Sources */,
 				6F6F6AC82D2828C90087BA28 /* HelpView.swift in Sources */,
+				6FB465152D3582FC0008E66A /* Sequence_ContentView.swift in Sources */,
 				6F6F6ABE2D280D520087BA28 /* DashboardContentView.swift in Sources */,
+				6FB465112D3582730008E66A /* ScrollData.swift in Sources */,
+				6FB464D62D355EEB0008E66A /* ZoomLinearView_ContentView.swift in Sources */,
 				6F6F6A112D26D6860087BA28 /* Notes.swift in Sources */,
 				6F6F6AFA2D2978950087BA28 /* RoadmapView.swift in Sources */,
 				6F6F6AFC2D2978A30087BA28 /* SidebarMenu.swift in Sources */,
 				6F6F6A3C2D26F1520087BA28 /* CutSitesView.swift in Sources */,
 				6F72D36D2C104815008F86CD /* IconCardView.swift in Sources */,
+				6FB464DE2D3561110008E66A /* Caret.swift in Sources */,
+				6FB4650B2D35824C0008E66A /* SequenceRenderer.swift in Sources */,
+				6FB465022D357FE80008E66A /* AnnotationContent.swift in Sources */,
+				6FB464D02D355C0D0008E66A /* LinearView.swift in Sources */,
 				6F6F6AC42D2828220087BA28 /* NotificationsView.swift in Sources */,
+				6FB465062D357FFC0008E66A /* PointedAnnotation 3.swift in Sources */,
+				6FB465192D359A4C0008E66A /* PrimeHintView.swift in Sources */,
 				6F6F6ACC2D2834C60087BA28 /* UserDetailView.swift in Sources */,
 				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
 				6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */,
 				6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */,
+				6FB464D22D355C290008E66A /* SequenceData.swift in Sources */,
+				6FB464DA2D355FE50008E66A /* SequenceName_ContentView.swift in Sources */,
+				6FB4650F2D3582670008E66A /* ColorRenderer.swift in Sources */,
+				6FB4650D2D3582580008E66A /* Annotation.swift in Sources */,
+				6FB465092D3582410008E66A /* DNASequence.swift in Sources */,
 				6F6F6ACA2D282A750087BA28 /* FileManager.swift in Sources */,
+				6FB464E02D35611C0008E66A /* Caret_ContentView.swift in Sources */,
+				6FB464E52D3561EE0008E66A /* Row.swift in Sources */,
 				6F6F6AD22D29174A0087BA28 /* GeneSequenceView.swift in Sources */,
 				6F6F6A292D26E74A0087BA28 /* GeneralView.swift in Sources */,
+				6FB464D82D355FCF0008E66A /* SequenceName.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
 				6F6F6B002D2979480087BA28 /* GeneListView.swift in Sources */,
+				6FB464FC2D357FC70008E66A /* AnnotationStyle.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,
 				6F6F6A232D26E5E30087BA28 /* ManageEnzymesView.swift in Sources */,
 				6F6F6A352D26EE6C0087BA28 /* GenePart.swift in Sources */,
@@ -814,10 +998,12 @@
 				6F6F6A022D26CBE80087BA28 /* GeneService.swift in Sources */,
 				6F6F6AF02D2977970087BA28 /* GeneSequenceListView.swift in Sources */,
 				6F6F69F02D26CB860087BA28 /* ExtraLine.swift in Sources */,
+				6FB464EB2D356C0F0008E66A /* SelectionLayer.swift in Sources */,
 				6F6F6AE72D2973310087BA28 /* GeneFileManager.swift in Sources */,
 				6F6F6A092D26CCBD0087BA28 /* Extension+Color.swift in Sources */,
 				6F6F6A252D26E6540087BA28 /* FeaturesView.swift in Sources */,
 				6F6F6AF82D2978880087BA28 /* TechnologiesView.swift in Sources */,
+				6FB464FE2D357FD30008E66A /* AnnotationDimensions.swift in Sources */,
 				6F6F6AD02D2836060087BA28 /* UserPanelView.swift in Sources */,
 				6F22AE3C2C0EDCC000DBC339 /* GeneVectorEditorApp.swift in Sources */,
 				6F72D36F2C10483D008F86CD /* IconCardViewTest.swift in Sources */,
@@ -825,8 +1011,13 @@
 				6F6F6A382D26F00A0087BA28 /* PrimersView.swift in Sources */,
 				6F6F6B112D29A2C80087BA28 /* DocumentPickerView.swift in Sources */,
 				6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */,
+				6FB464F22D3577890008E66A /* CanvasView.swift in Sources */,
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
+				6FB464E32D3561CE0008E66A /* ChromatogramView.swift in Sources */,
 				6F6F6AB52D27DFC10087BA28 /* MainView.swift in Sources */,
+				6FB464E82D356AC90008E66A /* DeletionLayer.swift in Sources */,
+				6FB464D42D355EA60008E66A /* ZoomLinearView.swift in Sources */,
+				6FB465002D357FDE0008E66A /* AnnotationInteractions.swift in Sources */,
 				6F6F69EE2D26CB800087BA28 /* GeneTranslation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1178,6 +1369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FB464F62D357CF70008E66A /* XCRemoteSwiftPackageReference "SVGPath" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicklockwood/SVGPath.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FB464F72D357CF70008E66A /* SVGPath */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FB464F62D357CF70008E66A /* XCRemoteSwiftPackageReference "SVGPath" */;
+			productName = SVGPath;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F22AE302C0EDCC000DBC339 /* Project object */;
 }
