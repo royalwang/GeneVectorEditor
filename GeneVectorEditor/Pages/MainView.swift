@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct DashboardView: View {
+struct MainView: View {
     @State private var selectedMenu: SidebarMenu = .dashboard // 当前选中的菜单
 
     var body: some View {
