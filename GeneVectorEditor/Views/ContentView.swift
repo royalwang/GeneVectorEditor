@@ -7,7 +7,7 @@
 //
 //import SwiftUI
 //
-//struct ContentView: View {
+//struct ContentView2: View {
 //    @StateObject private var viewModel = GeneViewModel()
 //    
 //    var body: some View {
@@ -39,6 +39,6 @@
 //
 //
 //#Preview {
-//    ContentView()
+//    ContentView2()
 //}
 //

@@ -52,6 +52,6 @@ struct MainView: View {
 
 struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
-        DashboardView()
+        MainView()
     }
 }
