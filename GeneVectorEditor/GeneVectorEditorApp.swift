@@ -12,7 +12,7 @@ struct GeneSequenceViewerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SequenceView_ContentView()
+            DNASequenceView_ContentView()
         }
     }
     
