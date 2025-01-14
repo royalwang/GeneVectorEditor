@@ -107,6 +107,7 @@
 		6FB4651D2D359F220008E66A /* DNASequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651C2D359F220008E66A /* DNASequenceView.swift */; };
 		6FB4651F2D35FF040008E66A /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651E2D35FF040008E66A /* AxisView.swift */; };
 		6FB465212D3600050008E66A /* AxisView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465202D3600050008E66A /* AxisView 2.swift */; };
+		6FB465232D3617610008E66A /* OptimizedDNASequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +232,7 @@
 		6FB4651C2D359F220008E66A /* DNASequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNASequenceView.swift; sourceTree = "<group>"; };
 		6FB4651E2D35FF040008E66A /* AxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
 		6FB465202D3600050008E66A /* AxisView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AxisView 2.swift"; sourceTree = "<group>"; };
+		6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizedDNASequenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -785,6 +787,7 @@
 		6FB465072D3582390008E66A /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */,
 				6FB465202D3600050008E66A /* AxisView 2.swift */,
 				6FB4651E2D35FF040008E66A /* AxisView.swift */,
 				6FB4651C2D359F220008E66A /* DNASequenceView.swift */,
@@ -1027,6 +1030,7 @@
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
 				6FB464E32D3561CE0008E66A /* ChromatogramView.swift in Sources */,
 				6F6F6AB52D27DFC10087BA28 /* MainView.swift in Sources */,
+				6FB465232D3617610008E66A /* OptimizedDNASequenceView.swift in Sources */,
 				6FB464E82D356AC90008E66A /* DeletionLayer.swift in Sources */,
 				6FB464D42D355EA60008E66A /* ZoomLinearView.swift in Sources */,
 				6FB465002D357FDE0008E66A /* AnnotationInteractions.swift in Sources */,

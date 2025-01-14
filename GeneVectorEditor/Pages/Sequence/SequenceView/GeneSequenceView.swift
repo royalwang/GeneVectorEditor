@@ -51,6 +51,7 @@ struct SequenceLineView: View {
 //            }
 
             // 序列显示
+//            OptimizedDNASequenceView(forwardSequence: sequence)
             DNASequenceView(forwardSequence: sequence)
             
 //            ColoredSequenceView(sequence: sequence)
