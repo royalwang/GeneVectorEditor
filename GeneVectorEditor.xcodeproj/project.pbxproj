@@ -108,6 +108,7 @@
 		6FB4651F2D35FF040008E66A /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651E2D35FF040008E66A /* AxisView.swift */; };
 		6FB465212D3600050008E66A /* AxisView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465202D3600050008E66A /* AxisView 2.swift */; };
 		6FB465232D3617610008E66A /* OptimizedDNASequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */; };
+		6FB465252D3618FD0008E66A /* DNASequenceView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465242D3618FD0008E66A /* DNASequenceView 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +234,7 @@
 		6FB4651E2D35FF040008E66A /* AxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
 		6FB465202D3600050008E66A /* AxisView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AxisView 2.swift"; sourceTree = "<group>"; };
 		6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizedDNASequenceView.swift; sourceTree = "<group>"; };
+		6FB465242D3618FD0008E66A /* DNASequenceView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DNASequenceView 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -787,6 +789,7 @@
 		6FB465072D3582390008E66A /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				6FB465242D3618FD0008E66A /* DNASequenceView 2.swift */,
 				6FB465222D3617610008E66A /* OptimizedDNASequenceView.swift */,
 				6FB465202D3600050008E66A /* AxisView 2.swift */,
 				6FB4651E2D35FF040008E66A /* AxisView.swift */,
@@ -1027,6 +1030,7 @@
 				6F6F6B112D29A2C80087BA28 /* DocumentPickerView.swift in Sources */,
 				6F6F6A482D26F5E80087BA28 /* FeaturesView 2.swift in Sources */,
 				6FB464F22D3577890008E66A /* CanvasView.swift in Sources */,
+				6FB465252D3618FD0008E66A /* DNASequenceView 2.swift in Sources */,
 				6F6F6A462D26F1FE0087BA28 /* Genbank.swift in Sources */,
 				6FB464E32D3561CE0008E66A /* ChromatogramView.swift in Sources */,
 				6F6F6AB52D27DFC10087BA28 /* MainView.swift in Sources */,

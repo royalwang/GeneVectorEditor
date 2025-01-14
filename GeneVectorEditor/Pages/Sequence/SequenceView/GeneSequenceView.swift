@@ -52,7 +52,8 @@ struct SequenceLineView: View {
 
             // 序列显示
 //            OptimizedDNASequenceView(forwardSequence: sequence)
-            DNASequenceView(forwardSequence: sequence)
+            DNASequenceCanvasView(forwardSequence: sequence)
+//            DNASequenceView(forwardSequence: sequence)
             
 //            ColoredSequenceView(sequence: sequence)
 //                .font(.custom("Courier", size: 14)) // 等宽字体
