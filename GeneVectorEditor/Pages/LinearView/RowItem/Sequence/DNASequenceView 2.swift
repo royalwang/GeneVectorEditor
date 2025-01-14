@@ -52,13 +52,13 @@ struct SequenceCanvas: View {
             let yOffset: CGFloat = height / 2
             
             // 绘制方向
-            context.draw(Text(direction).foregroundColor(.gray), at: CGPoint(x: 0, y: yOffset))
+            context.draw(Text(direction).foregroundColor(.gray), at: CGPoint(x: 10, y: yOffset))
             
             // 绘制序列
             for (index, char) in sequence.enumerated() {
-                let xPosition = CGFloat(index + 1) * charWidth
+                let xPosition = CGFloat(index + 1) * charWidth + 20
                 let text = Text(String(char)).foregroundColor(textColor).monospaced()
-                context.draw(text, at: CGPoint(x: xPosition, y: yOffset))
+                context.draw(text, at: CGPoint(x: xPosition - 10, y: yOffset))
             }
             
             // 绘制反方向
@@ -82,8 +82,8 @@ struct AxisCanvas: View {
             // 绘制轴线
             context.stroke(
                 Path { path in
-                    path.move(to: CGPoint(x: 0, y: lineYPosition))
-                    path.addLine(to: CGPoint(x: CGFloat(sequenceLength) * charWidth, y: lineYPosition))
+                    path.move(to: CGPoint(x: 20, y: 0))
+                    path.addLine(to: CGPoint(x: CGFloat(sequenceLength) * charWidth - 10, y: 0))
                 },
                 with: .color(.black),
                 lineWidth: 1
