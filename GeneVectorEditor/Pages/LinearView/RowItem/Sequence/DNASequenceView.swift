@@ -8,13 +8,35 @@
 
 import SwiftUI
 
+func reverseComplement(dnaSequence: String) -> String {
+    // 创建互补碱基字典
+    let complementMap: [Character: Character] = [
+        "a": "t", "t": "a",
+        "c": "g", "g": "c"
+    ]
+
+    // 将序列反转，并生成互补碱基
+    let reverseComplementSequence = dnaSequence.reversed().compactMap { complementMap[$0] }
+    
+    // 返回反向互补序列
+    return String(reverseComplementSequence)
+}
+
 struct DNASequenceView: View {
     let forwardSequence: String
-    let reverseSequence: String
     let charWidth: CGFloat = 14
     let height: CGFloat = 20
     let tickSpacing: Int = 10
-    let sequenceLength: Int
+    
+    
+    private var reverseSequence: String
+    private var sequenceLength: Int
+    
+    init(forwardSequence: String) {
+        self.forwardSequence = forwardSequence
+        self.reverseSequence = reverseComplement(dnaSequence: forwardSequence)
+        self.sequenceLength = forwardSequence.lengthOfBytes(using: String.Encoding.ascii)
+    }
 
     var body: some View {
         VStack(spacing: 5) {
@@ -26,9 +48,10 @@ struct DNASequenceView: View {
             SequenceRowView(sequence: reverseSequence, direction: "3'", reverseDirection: "5'", charWidth: charWidth, charColor: Color.gray)
             
             // 轴标
-            AxisView(tickSpacing: tickSpacing, sequenceLength: forwardSequence.lengthOfBytes(using: String.Encoding.ascii), charWidth: charWidth, horizontalPadding: 40)
+            AxisView(tickSpacing: tickSpacing, sequenceLength: forwardSequence.lengthOfBytes(using: String.Encoding.ascii), charWidth: charWidth, horizontalPadding: 0)
                 
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
     }
 }
@@ -50,7 +73,7 @@ struct SequenceRowView: View {
                 Text(String(sequence[sequence.index(sequence.startIndex, offsetBy: index)]))
                     .font(.system(size: 16))
                     .foregroundColor(charColor)
-                    .frame(width: charWidth, height: 20, alignment: .center)
+                    .frame(width: charWidth, height: 20, alignment: .leading)
             }
 
             Text(reverseDirection)
@@ -91,20 +114,21 @@ struct SequenceRowView: View {
 
 struct DNASequenceView_ContentView: View {
     var body: some View {
-        DNASequenceView(
-            forwardSequence: "attatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcaagaattcccgacaccatcgaatggtgcaaaa",
-            reverseSequence: "taatagtactgtaattggatatttttatccgcatagtgctccgggaaagcagaagttcttaagggctgtggtagcttaccacgtttt",
-            sequenceLength: 100
-        )
+//        DNASequenceView(
+//            forwardSequence: "attatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcaagaattcccgacaccatcgaatggtgcaaaa",
+//            reverseSequence: "taatagtactgtaattggatatttttatccgcatagtgctccgggaaagcagaagttcttaagggctgtggtagcttaccacgtttt",
+//            sequenceLength: 100
+//        )
+        DNASequenceView(forwardSequence: "attatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcaagaattcc")
     }
 }
 
-struct DNASequenceView_Priviews: PreviewProvider {
-    static var previews: some View {
-        DNASequenceView(
-            forwardSequence: "attatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcaagaattcccgacaccatcgaatggtgcaaaa",
-            reverseSequence: "taatagtactgtaattggatatttttatccgcatagtgctccgggaaagcagaagttcttaagggctgtggtagcttaccacgtttt",
-            sequenceLength: 100
-        )
-    }
-}
+//struct DNASequenceView_Priviews: PreviewProvider {
+//    static var previews: some View {
+//        DNASequenceView(
+//            forwardSequence: "attatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtcttcaagaattcccgacaccatcgaatggtgcaaaa",
+//            reverseSequence: "taatagtactgtaattggatatttttatccgcatagtgctccgggaaagcagaagttcttaagggctgtggtagcttaccacgtttt",
+//            sequenceLength: 100
+//        )
+//    }
+//}

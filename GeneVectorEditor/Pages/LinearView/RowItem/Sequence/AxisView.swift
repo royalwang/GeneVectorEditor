@@ -20,7 +20,7 @@ struct AxisView: View {
             HStack {
                 Spacer().frame(width: horizontalPadding) // 左边空白
                 Rectangle()
-                    .frame(height: 1)
+                    .frame(width: CGFloat(sequenceLength) * charWidth, height: 1)
                     .foregroundColor(.black)
                     .offset(y: 0) // 让线位于刻度线的上方
                 Spacer().frame(width: horizontalPadding) // 右边空白
@@ -49,6 +49,7 @@ struct AxisView: View {
                 Spacer().frame(width: horizontalPadding) // 右边空白
             }
         }
+        .frame(width: CGFloat(sequenceLength) * charWidth, height: 20)
     }
 }
 
@@ -58,8 +59,8 @@ struct AxisView_ContentView: View {
             AxisView(
                 tickSpacing: 10,
                 sequenceLength: 100,
-                charWidth: 14,
-                horizontalPadding: 20
+                charWidth: 16,
+                horizontalPadding: 0
             )
             .frame(height: 20)
         }

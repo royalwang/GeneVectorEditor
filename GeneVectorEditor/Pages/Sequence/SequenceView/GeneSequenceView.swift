@@ -10,8 +10,8 @@ import SwiftUI
 
 struct GeneSequenceView: View {
     let sequence: String // 完整核酸序列
-    let lineLength: Int // 每行显示的碱基数
     let scaleStep: Int = 10 // 坐标刻度的步长
+    var lineLength: Int // 每行显示的碱基数
 
     var body: some View {
         ScrollView(.vertical) {
@@ -39,19 +39,21 @@ struct SequenceLineView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 5) {
-            // 坐标轴
-            HStack(spacing: 0) {
-                ForEach(0..<sequence.count / scaleStep + 1, id: \.self) { index in
-                    let position = startOffset + index * scaleStep
-                    Text("\(position)")
-                        .font(.custom("Courier", size: 14)) // 等宽字体
-                        .foregroundColor(.gray)
-                        .frame(width: 8.4 * CGFloat(scaleStep), alignment: .leading) // 确保对齐
-                }
-            }
+//            // 坐标轴
+//            HStack(spacing: 0) {
+//                ForEach(0..<sequence.count / scaleStep + 1, id: \.self) { index in
+//                    let position = startOffset + index * scaleStep
+//                    Text("\(position)")
+//                        .font(.custom("Courier", size: 14)) // 等宽字体
+//                        .foregroundColor(.gray)
+//                        .frame(width: 8.4 * CGFloat(scaleStep), alignment: .leading) // 确保对齐
+//                }
+//            }
 
             // 序列显示
-            ColoredSequenceView(sequence: sequence)
+            DNASequenceView(forwardSequence: sequence)
+            
+//            ColoredSequenceView(sequence: sequence)
 //                .font(.custom("Courier", size: 14)) // 等宽字体
 //                .lineSpacing(5)
         }

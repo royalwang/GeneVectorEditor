@@ -46,7 +46,7 @@ struct FileDetailPage3: View {
                 ScrollView {
                     switch selectedTab {
                     case "Linear Map":
-                        GeneSequenceView(sequence: gene.sequence, lineLength: 140)
+                        GeneSequenceView(sequence: gene.sequence, lineLength: 87)
                     case "General":
                         GeneralView(gene: gene)
                     case "Features":

@@ -402,7 +402,6 @@
 				6F6F6A3B2D26F1520087BA28 /* CutSitesView.swift */,
 				6F6F6A392D26F0E10087BA28 /* TranslationsView.swift */,
 				6F6F6A372D26F00A0087BA28 /* PrimersView.swift */,
-				6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */,
 				6F6F6A282D26E74A0087BA28 /* GeneralView.swift */,
 				6F6F6A242D26E6540087BA28 /* FeaturesView.swift */,
 				6F6F6A322D26EE240087BA28 /* PartsView 2.swift */,
@@ -688,6 +687,7 @@
 		6FB464CC2D3558FB0008E66A /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				6F6F6A302D26EB900087BA28 /* FileDetailPage 3.swift */,
 				6F6F6B0D2D299B7C0087BA28 /* SequenceView */,
 				6F6F6B0A2D299B450087BA28 /* SequenceList */,
 			);
