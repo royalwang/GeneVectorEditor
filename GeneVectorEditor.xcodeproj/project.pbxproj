@@ -105,6 +105,8 @@
 		6FB465192D359A4C0008E66A /* PrimeHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465182D359A4C0008E66A /* PrimeHintView.swift */; };
 		6FB4651B2D359AD70008E66A /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651A2D359AD70008E66A /* SequenceView.swift */; };
 		6FB4651D2D359F220008E66A /* DNASequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651C2D359F220008E66A /* DNASequenceView.swift */; };
+		6FB4651F2D35FF040008E66A /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4651E2D35FF040008E66A /* AxisView.swift */; };
+		6FB465212D3600050008E66A /* AxisView 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB465202D3600050008E66A /* AxisView 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,6 +229,8 @@
 		6FB465182D359A4C0008E66A /* PrimeHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeHintView.swift; sourceTree = "<group>"; };
 		6FB4651A2D359AD70008E66A /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		6FB4651C2D359F220008E66A /* DNASequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNASequenceView.swift; sourceTree = "<group>"; };
+		6FB4651E2D35FF040008E66A /* AxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
+		6FB465202D3600050008E66A /* AxisView 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AxisView 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -781,6 +785,8 @@
 		6FB465072D3582390008E66A /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				6FB465202D3600050008E66A /* AxisView 2.swift */,
+				6FB4651E2D35FF040008E66A /* AxisView.swift */,
 				6FB4651C2D359F220008E66A /* DNASequenceView.swift */,
 				6FB4651A2D359AD70008E66A /* SequenceView.swift */,
 				6FB465182D359A4C0008E66A /* PrimeHintView.swift */,
@@ -977,6 +983,7 @@
 				6FB465062D357FFC0008E66A /* PointedAnnotation 3.swift in Sources */,
 				6FB465192D359A4C0008E66A /* PrimeHintView.swift in Sources */,
 				6F6F6ACC2D2834C60087BA28 /* UserDetailView.swift in Sources */,
+				6FB4651F2D35FF040008E66A /* AxisView.swift in Sources */,
 				6F6F6A2D2D26E9820087BA28 /* GeneData.swift in Sources */,
 				6F6F6AD82D291C2F0087BA28 /* Functions.swift in Sources */,
 				6F6F6A512D27B1510087BA28 /* GeneDirService.swift in Sources */,
@@ -993,6 +1000,7 @@
 				6FB464D82D355FCF0008E66A /* SequenceName.swift in Sources */,
 				6FB4651D2D359F220008E66A /* DNASequenceView.swift in Sources */,
 				6F6F6A312D26EB900087BA28 /* FileDetailPage 3.swift in Sources */,
+				6FB465212D3600050008E66A /* AxisView 2.swift in Sources */,
 				6F6F6B002D2979480087BA28 /* GeneListView.swift in Sources */,
 				6FB464FC2D357FC70008E66A /* AnnotationStyle.swift in Sources */,
 				6F6F6A332D26EE240087BA28 /* PartsView 2.swift in Sources */,

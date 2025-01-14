@@ -20,13 +20,14 @@ struct DNASequenceView: View {
         VStack(spacing: 5) {
             
             // 前向序列
-            SequenceRowView(sequence: forwardSequence, direction: "5'", reverseDirection: "3'", charWidth: charWidth)
+            SequenceRowView(sequence: forwardSequence, direction: "5'", reverseDirection: "3'", charWidth: charWidth, charColor: Color.black)
 
             // 反向序列
-            SequenceRowView(sequence: reverseSequence, direction: "3'", reverseDirection: "5'", charWidth: charWidth)
+            SequenceRowView(sequence: reverseSequence, direction: "3'", reverseDirection: "5'", charWidth: charWidth, charColor: Color.gray)
             
             // 轴标
-            AxisView(tickSpacing: tickSpacing, sequenceLength: sequenceLength, charWidth: charWidth)
+            AxisView(tickSpacing: tickSpacing, sequenceLength: forwardSequence.lengthOfBytes(using: String.Encoding.ascii), charWidth: charWidth, horizontalPadding: 40)
+                
         }
         .padding()
     }
@@ -37,6 +38,7 @@ struct SequenceRowView: View {
     let direction: String
     let reverseDirection: String
     let charWidth: CGFloat
+    let charColor: Color
 
     var body: some View {
         HStack(spacing: 0) {
@@ -47,6 +49,7 @@ struct SequenceRowView: View {
             ForEach(0..<sequence.count, id: \.self) { index in
                 Text(String(sequence[sequence.index(sequence.startIndex, offsetBy: index)]))
                     .font(.system(size: 16))
+                    .foregroundColor(charColor)
                     .frame(width: charWidth, height: 20, alignment: .center)
             }
 
@@ -57,29 +60,34 @@ struct SequenceRowView: View {
     }
 }
 
-struct AxisView: View {
-    let tickSpacing: Int
-    let sequenceLength: Int
-    let charWidth: CGFloat
-
-    var body: some View {
-        HStack(spacing: 0) {
-            ForEach(0..<sequenceLength, id: \.self) { index in
-                if index % tickSpacing == 0 {
-                    VStack {
-                        Rectangle()
-                            .frame(width: 1, height: 10)
-                        Text("\(index)")
-                            .font(.system(size: 10))
-                            .frame(width: charWidth, alignment: .center)
-                    }
-                } else {
-                    Spacer().frame(width: charWidth)
-                }
-            }
-        }
-    }
-}
+//struct AxisView: View {
+//    let tickSpacing: Int
+//    let sequenceLength: Int
+//    let charWidth: CGFloat
+//
+//    var body: some View {
+//        HStack(spacing: 0) {
+//            ForEach(0..<sequenceLength, id: \.self) { index in
+//                VStack {
+//                    Rectangle()
+//                        .frame(width: 10, height: 1)
+//                    
+//                    if index % tickSpacing == 0 {
+//                        VStack {
+//                            Rectangle()
+//                                .frame(width: 1, height: 10)
+//                            Text("\(index)")
+//                                .font(.system(size: 10))
+//                                .frame(width: charWidth, alignment: .center)
+//                        }
+//                    } else {
+//                        Spacer().frame(width: charWidth)
+//                    }
+//                }
+//            }
+//        }
+//    }
+//}
 
 struct DNASequenceView_ContentView: View {
     var body: some View {
